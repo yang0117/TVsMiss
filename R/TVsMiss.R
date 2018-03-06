@@ -11,7 +11,7 @@
 #' sBIC1 and sBIC2 are information stability for high dimension data, sVS is the variable selection stability,
 #' sEST is the estimation stability
 #' @param lambda lambda path used in the regularization path. If not specified by user, the path will be generated automatically
-#' @param fold the number of folds used to divided data, will be used in CV, sBIC, sBIC1, sBIC2, sVS, and sES method
+#' @param fold the number of folds used to divided data, will be used in CV, sBIC, sBIC1, sBIC2, sVS, and sEST method
 #' @param cv.ind a vector to indicate what fold each observations belong, useful to make reproducible research
 #' @param repeat_b B parameter in sVS method, the repeating time to calculate selection stability criteria
 #' @param alpha_n the parameter used to take care of variables with weak effect in sVS method

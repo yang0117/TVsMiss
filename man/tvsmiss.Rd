@@ -23,7 +23,7 @@ sEST is the estimation stability}
 
 \item{lambda}{lambda path used in the regularization path. If not specified by user, the path will be generated automatically}
 
-\item{fold}{the number of folds used to divided data, will be used in CV, sBIC, sBIC1, sBIC2, sVS, and sES method}
+\item{fold}{the number of folds used to divided data, will be used in CV, sBIC, sBIC1, sBIC2, sVS, and sEST method}
 
 \item{cv.ind}{a vector to indicate what fold each observations belong, useful to make reproducible research}
 
