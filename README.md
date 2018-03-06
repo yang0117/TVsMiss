@@ -1,3 +1,5 @@
+TVsMiss
+================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -32,7 +34,7 @@ colnames(xm) <- paste0("Var_",1:p)
 fit02 <- tvsmiss(x=xm,y=y,method = "BIC")
 fit02$selection_beta
 #>     Var_1     Var_2     Var_3     Var_4     Var_5     Var_6     Var_7 
-#> 0.6972660 0.0000000 0.3274012 0.0000000 0.4869587 0.0000000 0.0000000 
+#> 0.5691356 0.0000000 0.2561393 0.0000000 0.3981944 0.0000000 0.0000000 
 #>     Var_8 
 #> 0.0000000
 plot(fit02,x.log=TRUE,label = TRUE)
