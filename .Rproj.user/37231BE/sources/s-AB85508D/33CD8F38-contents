@@ -1,0 +1,26 @@
+rm(list=ls())
+fun01 <- function(x){
+  a <- 3
+  x <- x + 1
+  fun02(b)
+  return(x)
+}
+
+fun02 <- function(b){
+  print(a)
+}
+
+fun01(3)
+
+
+make.fn2 <- function(a, b) {
+  fn2 <- function(x) {
+    return( x + a + b )
+  }
+  return( fn2 )
+}
+
+a <- 2; b <- 3
+fn2.1 <- make.fn2(a, b)
+fn2.1(3)    # 8
+fn2.1(4)  

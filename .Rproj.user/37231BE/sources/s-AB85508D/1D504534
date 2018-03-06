@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520248202119.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1D504534",
+    "lastKnownWriteTime" : 1520295833,
+    "last_content_update" : 1520295833028,
+    "path" : "~/Dropbox/04.Projects/package/TVsMiss/tests/test.R",
+    "project_path" : "tests/test.R",
+    "properties" : {
+        "cursorPosition" : "82,0",
+        "marks" : "<:82,-1\n>:82,0",
+        "scrollLine" : "46",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+]0;~/Dropbox/04.Projects/package/TVsMiss[?1034h[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ [K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ cd S[Ksrc/
+]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ git[K[K[Kcd src/git status
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd /Users/yangyang/Dropbox/ 04.Projects/package/TVsMiss.Rcheck/00check.log
+bash: cd: /Users/yangyang/Dropbox/04.Projects/package/TVsMiss.Rcheck/00check.log: No such file or directory
+]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd /Users/yangyang/Dropbox/004.Projects/package/TVsMiss.Rcheck/00check.log[K[K[K[K[K[K[K[K[K[K[K
+bash: cd: /Users/yangyang/Dropbox/04.Projects/package/TVsMiss.Rcheck/: No such file or directory
+[K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd ..
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls
+DESCRIPTION       [1m[34mR[39;49m[0m/                cran-comments.md  [1m[34msrc[39;49m[0m/
+NAMESPACE         TVsMiss.Rproj     [1m[34mman[39;49m[0m/              [1m[34mtests[39;49m[0m/
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git init
+Initialized empty Git repository in /Users/yangyang/Dropbox/04.Projects/package/TVsMiss/.git/
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .

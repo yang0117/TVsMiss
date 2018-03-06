@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520296652658.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9374438C",
+    "lastKnownWriteTime" : 1520296530,
+    "last_content_update" : 1520296530,
+    "path" : "~/Dropbox/04.Projects/package/TVsMiss/R/TVsMiss.R",
+    "project_path" : "R/TVsMiss.R",
+    "properties" : {
+        "cursorPosition" : "22,17",
+        "marks" : "<:22,16\n>:22,17",
+        "scrollLine" : "1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

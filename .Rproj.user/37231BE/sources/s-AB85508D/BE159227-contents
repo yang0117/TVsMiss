@@ -1,0 +1,17 @@
+Package: TVsMiss
+Type: Package
+Title: Variable Selection for Missing Data
+Version: 0.1.0
+Date: 2018/03/01
+Author: Yang Yang and Jiwei Zhao
+Maintainer: Yang Yang <yyang39@buffalo.edu>
+Description: Use a regularizaiton method to achieve variable selection purpose, can be used with lasso, SCAD and MCP. 
+    Tuning parameter selection techniques include CV, BIC(low and high), sVS, sBIC, and sEST.
+    More detials see Zhao, Jiwei, Yang Yang, and Yang Ning. (2018). "Penalized pairwise pseudo likelihood for variable selection with nonignorable missing data." Statistica Sinica.
+License: GPL (>= 2)
+Imports: glmnet,
+    Rcpp
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+LinkingTo: Rcpp

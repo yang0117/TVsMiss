@@ -1,0 +1,20 @@
+x01 <- fit01$model
+x01$beta
+x01$lambda
+
+
+x03 <- fit03$model
+x03$beta
+x03$lambda
+
+coef(x03)
+
+
+
+model.adapt <- x01
+class(model.adapt) <- "ncvreg"
+beta.temp <- as.matrix(model.adapt$beta)
+beta.temp <- rbind(rep(0,ncol(beta.temp)),beta.temp)
+model.adapt$beta <- beta.temp
+model.adapt$penalty.factor <- rep(1,nrow(beta.temp)-1)
+plot_for_ncvreg(model.adapt, log.l=TRUE, label = TRUE)
