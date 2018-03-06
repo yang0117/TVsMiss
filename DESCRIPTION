@@ -3,7 +3,7 @@ Type: Package
 Title: Variable Selection for Missing Data
 Version: 0.1.0
 Date: 2018-03-01
-Author: Yang Yang and Jiwei Zhao
+Author: Jiwei Zhao, Yang Yang, and Ning Yang
 Maintainer: Yang Yang <yyang39@buffalo.edu>
 Description: Use a regularization likelihood method to achieve variable selection purpose, can be used with lasso, SCAD and MCP. 
     Tuning parameter selection techniques include CV, BIC(low and high), sVS, sBIC, and sEST.
