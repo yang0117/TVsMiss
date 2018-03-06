@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2708567950",
+    "hash" : "0",
     "id" : "AD3764A",
-    "lastKnownWriteTime" : 1517775798,
-    "last_content_update" : 1517775798,
+    "lastKnownWriteTime" : 1520314277,
+    "last_content_update" : 1520314277,
     "path" : "~/Dropbox/04.Projects/package/TVsMiss/.Rbuildignore",
     "project_path" : ".Rbuildignore",
     "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 4,
     "source_on_save" : false,

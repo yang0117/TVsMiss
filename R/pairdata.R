@@ -4,6 +4,8 @@
 #'
 #' @param data1 the orginal unpaired data
 #'
+#' @example
+#'
 #' @export
 
 #logistics data generator: get the logistics dataset from original dataset
