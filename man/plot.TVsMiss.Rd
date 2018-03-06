@@ -17,7 +17,7 @@
 }
 \description{
 solution path is generated, the x-axis can be either in log or normal scale, the variable names
-of each predictors can be choosed to show or not
+of each predictors can be chosen to show or not
 }
 \examples{
 n <- 50

@@ -1,22 +1,23 @@
 #' fit and select variable(s) for data with missing value
 #'
 #' Fit a model based on a pseudo likelihood and select variable(s) through one of multiple techniques. The regularization path is computed for lasso, SCAD, or MCP.
-#'
+#' Three steps are used to finsih this the variable selectio purpose: 1. remove missing and pair each observations;
+#' 2. use penalty to get lambda path and corresponding beta matrix; 3. use specific method to finish variable selection.
 #' @param x the covariate matrix, should be in matrix format and at least two columns, each row is an observation
 #' @param y the response variable
-#' @param penalty the penalty used for regularization, can be lasso, SCAD, or MCP. The default is lasoo.
+#' @param penalty the penalty used for regularization, can be lasso, SCAD, or MCP. The default is lasso.
 #' @param method the variable selection method, can be cross-validation (CV), Bayesian information criterion (BIC),
-#' BIC1 and BIC2 are adpated for the consistency in the high demesion, sBIC is the information stability,
+#' BIC1 and BIC2 are adapted for the consistency in the high demision, sBIC is the information stability,
 #' sBIC1 and sBIC2 are information stability for high dimension data, sVS is the variable selection stability,
-#' sES is the estimation stability
+#' sEST is the estimation stability
 #' @param lambda lambda path used in the regularization path. If not specified by user, the path will be generated automatically
 #' @param fold the number of folds used to divided data, will be used in CV, sBIC, sBIC1, sBIC2, sVS, and sES method
-#' @param cv.ind a vector to indicate what fold each oberservations belong, useful to make reproducible research
+#' @param cv.ind a vector to indicate what fold each observations belong, useful to make reproducible research
 #' @param repeat_b B parameter in sVS method, the repeating time to calculate selection stability criteria
-#' @param alpha_n the paramter used to take care of varialbes with weak effect in sVS method
+#' @param alpha_n the parameter used to take care of variables with weak effect in sVS method
 #' @param refit If TRUE, refit technique will be used to get estimation, i.e., use selection variable to refit
 #' the model to get estimation
-#' @param use.penalty If TRUE, use penalty and variable selection teniques; if FALSE, just fit a logistic regression model with
+#' @param use.penalty If TRUE, use penalty and variable selection techniques; if FALSE, just fit a logistic regression model with
 #' pairwised data
 #' @param gamma the tuning parameter of the SCAD/MCP. Default is 3.7 for SCAD and 3 for MCP
 #'
@@ -48,7 +49,7 @@
 
 
 # three steps:
-# 1. remove missing and pairwise each observations
+# 1. remove missing and pair each observations
 # 2. use penalty to get lambda path and corresponding beta matrix
 # 3. use specific method to finish variable selection
 #
