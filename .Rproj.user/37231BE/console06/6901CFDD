@@ -1,674 +1,0 @@
-]0;~/Dropbox/04.Projects/package/TVsMiss[?1034h[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ [K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git status
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ cd S[Ksrc/
-]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ git[K[K[Kcd src/git status
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd /Users/yangyang/Dropbox/ 04.Projects/package/TVsMiss.Rcheck/00check.log
-bash: cd: /Users/yangyang/Dropbox/04.Projects/package/TVsMiss.Rcheck/00check.log: No such file or directory
-]0;~/Dropbox/04.Projects/package/TVsMiss/src[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd /Users/yangyang/Dropbox/004.Projects/package/TVsMiss.Rcheck/00check.log[K[K[K[K[K[K[K[K[K[K[K
-bash: cd: /Users/yangyang/Dropbox/04.Projects/package/TVsMiss.Rcheck/: No such file or directory
-[K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss/src[m$ cd ..
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls
-DESCRIPTION       [1m[34mR[39;49m[0m/                cran-comments.md  [1m[34msrc[39;49m[0m/
-NAMESPACE         TVsMiss.Rproj     [1m[34mman[39;49m[0m/              [1m[34mtests[39;49m[0m/
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git init
-Initialized empty Git repository in /Users/yangyang/Dropbox/04.Projects/package/TVsMiss/.git/
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""F"[1P"C"o"d"e"f"[1P" "f"i"n"i"s"h"e"d"
-[master (root-commit) d155bce] Code finished
- 228 files changed, 8002 insertions(+)
- create mode 100644 .DS_Store
- create mode 100644 .Rbuildignore
- create mode 100644 .Rhistory
- create mode 100644 .Rproj.user/37231BE/.DS_Store
- create mode 100644 .Rproj.user/37231BE/build_options
- create mode 100644 .Rproj.user/37231BE/console06/6901CFDD
- create mode 100644 .Rproj.user/37231BE/console06/6901CFDD.env
- create mode 100644 .Rproj.user/37231BE/console06/INDEX001
- create mode 100644 .Rproj.user/37231BE/cpp-complilation-config
- create mode 100644 .Rproj.user/37231BE/cpp-definition-cache
- create mode 100644 .Rproj.user/37231BE/pcs/debug-breakpoints.pper
- create mode 100644 .Rproj.user/37231BE/pcs/files-pane.pper
- create mode 100644 .Rproj.user/37231BE/pcs/source-pane.pper
- create mode 100644 .Rproj.user/37231BE/pcs/windowlayoutstate.pper
- create mode 100644 .Rproj.user/37231BE/pcs/workbench-pane.pper
- create mode 100644 .Rproj.user/37231BE/persistent-state
- create mode 100644 .Rproj.user/37231BE/rmd-outputs
- create mode 100644 .Rproj.user/37231BE/saved_source_markers
- create mode 100644 .Rproj.user/37231BE/sources/.DS_Store
- create mode 100644 .Rproj.user/37231BE/sources/prop/13D6A5FE
- create mode 100644 .Rproj.user/37231BE/sources/prop/22F94DD6
- create mode 100644 .Rproj.user/37231BE/sources/prop/2503415B
- create mode 100644 .Rproj.user/37231BE/sources/prop/28772A7
- create mode 100644 .Rproj.user/37231BE/sources/prop/295CE971
- create mode 100644 .Rproj.user/37231BE/sources/prop/2BEC268C
- create mode 100644 .Rproj.user/37231BE/sources/prop/2E0676C3
- create mode 100644 .Rproj.user/37231BE/sources/prop/31ABF772
- create mode 100644 .Rproj.user/37231BE/sources/prop/3247FBFD
- create mode 100644 .Rproj.user/37231BE/sources/prop/32E512CB
- create mode 100644 .Rproj.user/37231BE/sources/prop/36438C65
- create mode 100644 .Rproj.user/37231BE/sources/prop/37F9BF81
- create mode 100644 .Rproj.user/37231BE/sources/prop/388F7CA
- create mode 100644 .Rproj.user/37231BE/sources/prop/3ACCDB1D
- create mode 100644 .Rproj.user/37231BE/sources/prop/3B8C97F2
- create mode 100644 .Rproj.user/37231BE/sources/prop/3BE3E784
- create mode 100644 .Rproj.user/37231BE/sources/prop/3E06404D
- create mode 100644 .Rproj.user/37231BE/sources/prop/4027FA83
- create mode 100644 .Rproj.user/37231BE/sources/prop/42783908
- create mode 100644 .Rproj.user/37231BE/sources/prop/435D2F13
- create mode 100644 .Rproj.user/37231BE/sources/prop/44FC48E7
- create mode 100644 .Rproj.user/37231BE/sources/prop/45DA4724
- create mode 100644 .Rproj.user/37231BE/sources/prop/4BDAE678
- create mode 100644 .Rproj.user/37231BE/sources/prop/4D6DA1F7
- create mode 100644 .Rproj.user/37231BE/sources/prop/4E7153ED
- create mode 100644 .Rproj.user/37231BE/sources/prop/56BCEF47
- create mode 100644 .Rproj.user/37231BE/sources/prop/5771DAAD
- create mode 100644 .Rproj.user/37231BE/sources/prop/5BE68E91
- create mode 100644 .Rproj.user/37231BE/sources/prop/5C4A7BDD
- create mode 100644 .Rproj.user/37231BE/sources/prop/5CD68C60
- create mode 100644 .Rproj.user/37231BE/sources/prop/5DDF173A
- create mode 100644 .Rproj.user/37231BE/sources/prop/5FB43971
- create mode 100644 .Rproj.user/37231BE/sources/prop/64BA44A1
- create mode 100644 .Rproj.user/37231BE/sources/prop/670505A2
- create mode 100644 .Rproj.user/37231BE/sources/prop/6AE0866F
- create mode 100644 .Rproj.user/37231BE/sources/prop/6FDF94BE
- create mode 100644 .Rproj.user/37231BE/sources/prop/707BF3BF
- create mode 100644 .Rproj.user/37231BE/sources/prop/708AB86
- create mode 100644 .Rproj.user/37231BE/sources/prop/730F117C
- create mode 100644 .Rproj.user/37231BE/sources/prop/74C35442
- create mode 100644 .Rproj.user/37231BE/sources/prop/74D444A7
- create mode 100644 .Rproj.user/37231BE/sources/prop/75A04596
- create mode 100644 .Rproj.user/37231BE/sources/prop/76CC0416
- create mode 100644 .Rproj.user/37231BE/sources/prop/7967BE3F
- create mode 100644 .Rproj.user/37231BE/sources/prop/7D26FA24
- create mode 100644 .Rproj.user/37231BE/sources/prop/84716957
- create mode 100644 .Rproj.user/37231BE/sources/prop/8479360A
- create mode 100644 .Rproj.user/37231BE/sources/prop/88A7E67C
- create mode 100644 .Rproj.user/37231BE/sources/prop/89B31F4E
- create mode 100644 .Rproj.user/37231BE/sources/prop/8C924AA2
- create mode 100644 .Rproj.user/37231BE/sources/prop/9078EABB
- create mode 100644 .Rproj.user/37231BE/sources/prop/90DBF537
- create mode 100644 .Rproj.user/37231BE/sources/prop/9135F7D4
- create mode 100644 .Rproj.user/37231BE/sources/prop/9918715E
- create mode 100644 .Rproj.user/37231BE/sources/prop/9DDBBABD
- create mode 100644 .Rproj.user/37231BE/sources/prop/A1774FFE
- create mode 100644 .Rproj.user/37231BE/sources/prop/A324D046
- create mode 100644 .Rproj.user/37231BE/sources/prop/A7321915
- create mode 100644 .Rproj.user/37231BE/sources/prop/A7337316
- create mode 100644 .Rproj.user/37231BE/sources/prop/A737F3B2
- create mode 100644 .Rproj.user/37231BE/sources/prop/A7E3E30A
- create mode 100644 .Rproj.user/37231BE/sources/prop/AC7D9EA
- create mode 100644 .Rproj.user/37231BE/sources/prop/AD2820EF
- create mode 100644 .Rproj.user/37231BE/sources/prop/AF010596
- create mode 100644 .Rproj.user/37231BE/sources/prop/B0CBADA
- create mode 100644 .Rproj.user/37231BE/sources/prop/B16E9919
- create mode 100644 .Rproj.user/37231BE/sources/prop/B1DB133C
- create mode 100644 .Rproj.user/37231BE/sources/prop/B381754E
- create mode 100644 .Rproj.user/37231BE/sources/prop/B3D7691C
- create mode 100644 .Rproj.user/37231BE/sources/prop/B6B5E70D
- create mode 100644 .Rproj.user/37231BE/sources/prop/B919F9BC
- create mode 100644 .Rproj.user/37231BE/sources/prop/BE8859A2
- create mode 100644 .Rproj.user/37231BE/sources/prop/C18B7BBB
- create mode 100644 .Rproj.user/37231BE/sources/prop/C1EB3066
- create mode 100644 .Rproj.user/37231BE/sources/prop/C24D8775
- create mode 100644 .Rproj.user/37231BE/sources/prop/C6DD377A
- create mode 100644 .Rproj.user/37231BE/sources/prop/CB71DBA6
- create mode 100644 .Rproj.user/37231BE/sources/prop/CDCFBE7A
- create mode 100644 .Rproj.user/37231BE/sources/prop/CE003E52
- create mode 100644 .Rproj.user/37231BE/sources/prop/CFF6336A
- create mode 100644 .Rproj.user/37231BE/sources/prop/D20F3CBC
- create mode 100644 .Rproj.user/37231BE/sources/prop/D240E6C1
- create mode 100644 .Rproj.user/37231BE/sources/prop/D55FFC2
- create mode 100644 .Rproj.user/37231BE/sources/prop/DB9690D7
- create mode 100644 .Rproj.user/37231BE/sources/prop/DF80B4D2
- create mode 100644 .Rproj.user/37231BE/sources/prop/E10D84E1
- create mode 100644 .Rproj.user/37231BE/sources/prop/E1476903
- create mode 100644 .Rproj.user/37231BE/sources/prop/E348E628
- create mode 100644 .Rproj.user/37231BE/sources/prop/E794B788
- create mode 100644 .Rproj.user/37231BE/sources/prop/EEC07C13
- create mode 100644 .Rproj.user/37231BE/sources/prop/EEF941F9
- create mode 100644 .Rproj.user/37231BE/sources/prop/EFDEDB5B
- create mode 100644 .Rproj.user/37231BE/sources/prop/F3C7577A
- create mode 100644 .Rproj.user/37231BE/sources/prop/F5007713
- create mode 100644 .Rproj.user/37231BE/sources/prop/F50199CE
- create mode 100644 .Rproj.user/37231BE/sources/prop/FF6DB4EA
- create mode 100644 .Rproj.user/37231BE/sources/prop/INDEX
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1208406-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1350BD46-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/16D5887A-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/175564BA-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1847AF62-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1AF162E0-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/20CDA5C8-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2112684F-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/27F95C0B-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/28B4FCFD-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2AF897DB-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/33CD8F38-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/3F5D4F62-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41AE14A3-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41B8F8BB-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/43CF75E8-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/464A1BD0-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/473D9FB5-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4C8E6033-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4CC5139A-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4D278DFD-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5C24B8C0-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5EA9D1CA-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/664107D2-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/6816789E-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72DF8A5E-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72E34D83-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7353E2FE-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/75E2BD5C-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/79DFECD1-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7A2FA920-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/80C91F03-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/8C8BF9E-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/99CA600C-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9AD7878D-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9EBEFA83-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9F3D157-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A3C42317-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A6B32001-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A75A600E-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD34982B-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AF09C757-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B00C71FE-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B28EDFA7-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B29EB5EC-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B8F0164A-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BAF4AE2E-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BD6FAE10-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BE159227-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C1395B57-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C681DEA-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C69716B1-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C70ADA09-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/CA0BB060-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/D630B5BA-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DDAFF9D9-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DF65EDB0-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E3DFBCE9-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E43EDDBC-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E4BEB26F-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EB6E729D-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EF24AFFC-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F0336B9A-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F609B5F9-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FC97175C-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FE635643-contents
- create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/lock_file
- create mode 100644 .Rproj.user/shared/.DS_Store
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 DESCRIPTION
- create mode 100644 NAMESPACE
- create mode 100644 R/TVsMiss.R
- create mode 100644 R/cv_logistic_prepare.R
- create mode 100644 R/function_archive.R
- create mode 100644 R/loglikelihood.R
- create mode 100644 R/model_est_path.R
- create mode 100644 R/ncv_function.R
- create mode 100644 R/ncvint.R
- create mode 100644 R/pairdata.R
- create mode 100644 R/plot.TVsMiss.R
- create mode 100644 R/selection_BIC.R
- create mode 100644 R/selection_BIChigh.R
- create mode 100644 R/selection_BICultrahigh.R
- create mode 100644 R/selection_CV.R
- create mode 100644 R/selection_fleiss.R
- create mode 100644 R/selection_sBIC.R
- create mode 100644 R/selection_sBIChigh.R
- create mode 100644 R/selection_sBICultrahigh.R
- create mode 100644 R/selection_sEST.R
- create mode 100644 R/selection_sVS.R
- create mode 100644 TVsMiss.Rproj
- create mode 100644 cran-comments.md
- create mode 100644 man/pairdata.Rd
- create mode 100644 man/plot.TVsMiss.Rd
- create mode 100644 man/tvsmiss.Rd
- create mode 100644 src/.DS_Store
- create mode 100644 src/binomial.c
- create mode 100644 src/loglikelihood.c
- create mode 100644 src/maxprod.c
- create mode 100644 src/ncvint.c
- create mode 100644 tests/test.R
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git remov[Kte add origin https://github.com/yang0117/T VsMiss.git
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ g[Kgit rmo[K[Kemote -v
-origin	https://github.com/yang0117/TVsMiss.git (fetch)
-origin	https://github.com/yang0117/TVsMiss.git (push)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
-Counting objects: 161, done.
-Delta compression using up to 8 threads.
-Compressing objects:   0% (1/154)   Compressing objects:   1% (2/154)   Compressing objects:   2% (4/154)   Compressing objects:   3% (5/154)   Compressing objects:   4% (7/154)   Compressing objects:   5% (8/154)   Compressing objects:   6% (10/154)   Compressing objects:   7% (11/154)   Compressing objects:   8% (13/154)   Compressing objects:   9% (14/154)   Compressing objects:  10% (16/154)   Compressing objects:  11% (17/154)   Compressing objects:  12% (19/154)   Compressing objects:  13% (21/154)   Compressing objects:  14% (22/154)   Compressing objects:  15% (24/154)   Compressing objects:  16% (25/154)   Compressing objects:  17% (27/154)   Compressing objects:  18% (28/154)   Compressing objects:  19% (30/154)   Compressing objects:  20% (31/154)   Compressing objects:  21% (33/154)   Compressing objects:  22% (34/154)   Compressing objects:  23% (36/154)   Compressing objects:  24% (37/154)   Compressing objects:  25% (39/154)   Compressing objects:  26% (41/154)   Compressing objects:  27% (42/154)   Compressing objects:  28% (44/154)   Compressing objects:  29% (45/154)   Compressing objects:  30% (47/154)   Compressing objects:  31% (48/154)   Compressing objects:  32% (50/154)   Compressing objects:  33% (51/154)   Compressing objects:  34% (53/154)   Compressing objects:  35% (54/154)   Compressing objects:  36% (56/154)   Compressing objects:  37% (57/154)   Compressing objects:  38% (59/154)   Compressing objects:  39% (61/154)   Compressing objects:  40% (62/154)   Compressing objects:  41% (64/154)   Compressing objects:  42% (65/154)   Compressing objects:  43% (67/154)   Compressing objects:  44% (68/154)   Compressing objects:  45% (70/154)   Compressing objects:  46% (71/154)   Compressing objects:  47% (73/154)   Compressing objects:  48% (74/154)   Compressing objects:  49% (76/154)   Compressing objects:  50% (77/154)   Compressing objects:  51% (79/154)   Compressing objects:  52% (81/154)   Compressing objects:  53% (82/154)   Compressing objects:  54% (84/154)   Compressing objects:  55% (85/154)   Compressing objects:  56% (87/154)   Compressing objects:  57% (88/154)   Compressing objects:  58% (90/154)   Compressing objects:  59% (91/154)   Compressing objects:  60% (93/154)   Compressing objects:  61% (94/154)   Compressing objects:  62% (96/154)   Compressing objects:  63% (98/154)   Compressing objects:  64% (99/154)   Compressing objects:  65% (101/154)   Compressing objects:  66% (102/154)   Compressing objects:  67% (104/154)   Compressing objects:  68% (105/154)   Compressing objects:  69% (107/154)   Compressing objects:  70% (108/154)   Compressing objects:  71% (110/154)   Compressing objects:  72% (111/154)   Compressing objects:  73% (113/154)   Compressing objects:  74% (114/154)   Compressing objects:  75% (116/154)   Compressing objects:  76% (118/154)   Compressing objects:  77% (119/154)   Compressing objects:  78% (121/154)   Compressing objects:  79% (122/154)   Compressing objects:  80% (124/154)   Compressing objects:  81% (125/154)   Compressing objects:  82% (127/154)   Compressing objects:  83% (128/154)   Compressing objects:  84% (130/154)   Compressing objects:  85% (131/154)   Compressing objects:  86% (133/154)   Compressing objects:  87% (134/154)   Compressing objects:  88% (136/154)   Compressing objects:  89% (138/154)   Compressing objects:  90% (139/154)   Compressing objects:  91% (141/154)   Compressing objects:  92% (142/154)   Compressing objects:  93% (144/154)   Compressing objects:  94% (145/154)   Compressing objects:  95% (147/154)   Compressing objects:  96% (148/154)   Compressing objects:  97% (150/154)   Compressing objects:  98% (151/154)   Compressing objects:  99% (153/154)   Compressing objects: 100% (154/154)   Compressing objects: 100% (154/154), done.
-Writing objects:   0% (1/161)   Writing objects:   1% (2/161)   Writing objects:   3% (5/161)   Writing objects:   4% (7/161)   Writing objects:   5% (9/161)   Writing objects:   6% (10/161)   Writing objects:   7% (12/161)   Writing objects:   8% (13/161)   Writing objects:   9% (15/161)   Writing objects:  10% (17/161)   Writing objects:  11% (18/161)   Writing objects:  12% (20/161)   Writing objects:  13% (21/161)   Writing objects:  14% (23/161)   Writing objects:  15% (25/161)   Writing objects:  16% (26/161)   Writing objects:  17% (28/161)   Writing objects:  18% (29/161)   Writing objects:  19% (31/161)   Writing objects:  20% (33/161)   Writing objects:  21% (34/161)   Writing objects:  22% (36/161)   Writing objects:  23% (38/161)   Writing objects:  24% (39/161)   Writing objects:  25% (41/161)   Writing objects:  26% (42/161)   Writing objects:  27% (44/161)   Writing objects:  28% (46/161)   Writing objects:  29% (47/161)   Writing objects:  30% (49/161)   Writing objects:  31% (50/161)   Writing objects:  32% (52/161)   Writing objects:  33% (54/161)   Writing objects:  34% (55/161)   Writing objects:  35% (57/161)   Writing objects:  36% (58/161)   Writing objects:  37% (60/161)   Writing objects:  38% (62/161)   Writing objects:  39% (63/161)   Writing objects:  40% (65/161)   Writing objects:  41% (67/161)   Writing objects:  42% (68/161)   Writing objects:  43% (70/161)   Writing objects:  44% (71/161)   Writing objects:  45% (73/161)   Writing objects:  46% (75/161)   Writing objects:  47% (76/161)   Writing objects:  48% (78/161)   Writing objects:  49% (79/161)   Writing objects:  50% (81/161)   Writing objects:  52% (84/161)   Writing objects:  53% (86/161)   Writing objects:  54% (87/161)   Writing objects:  55% (89/161)   Writing objects:  56% (91/161)   Writing objects:  57% (92/161)   Writing objects:  59% (95/161)   Writing objects:  60% (97/161)   Writing objects:  61% (99/161)   Writing objects:  62% (100/161)   Writing objects:  63% (102/161)   Writing objects:  64% (104/161)   Writing objects:  65% (105/161)   Writing objects:  66% (107/161)   Writing objects:  67% (108/161)   Writing objects:  68% (110/161)   Writing objects:  70% (113/161)   Writing objects:  71% (115/161)   Writing objects:  72% (116/161)   Writing objects:  73% (118/161)   Writing objects:  74% (120/161)   Writing objects:  75% (121/161)   Writing objects:  76% (123/161)   Writing objects:  77% (124/161)   Writing objects:  78% (126/161)   Writing objects:  79% (128/161)   Writing objects:  80% (129/161)   Writing objects:  81% (131/161)   Writing objects:  82% (133/161)   Writing objects:  83% (134/161)   Writing objects:  84% (136/161)   Writing objects:  85% (137/161)   Writing objects:  86% (139/161)   Writing objects:  87% (141/161)   Writing objects:  88% (142/161)   Writing objects:  89% (144/161)   Writing objects:  90% (145/161)   Writing objects:  91% (147/161)   Writing objects:  92% (149/161)   Writing objects:  93% (150/161)   Writing objects:  94% (152/161)   Writing objects:  95% (153/161)   Writing objects:  96% (155/161)   Writing objects:  97% (157/161)   Writing objects:  98% (158/161)   Writing objects:  99% (160/161)   Writing objects: 100% (161/161)   Writing objects: 100% (161/161), 64.01 KiB | 390.00 KiB/s, done.
-Total 161 (delta 17), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:  23% (4/17)   [Kremote: Resolving deltas:  29% (5/17)   [Kremote: Resolving deltas:  47% (8/17)   [Kremote: Resolving deltas:  52% (9/17)   [Kremote: Resolving deltas:  70% (12/17)   [Kremote: Resolving deltas:  76% (13/17)   [Kremote: Resolving deltas:  88% (15/17)   [Kremote: Resolving deltas:  94% (16/17)   [Kremote: Resolving deltas: 100% (17/17)   [Kremote: Resolving deltas: 100% (17/17), done.[K
-To https://github.com/yang0117/TVsMiss.git
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
-git add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""a"d"d" "e"x"m"[1P"a"m"p"l"e"
-[master 0379dc7] add example
- 17 files changed, 501 insertions(+), 188 deletions(-)
- rewrite .Rproj.user/37231BE/sources/s-AB85508D/1D504534-contents (100%)
- create mode 100644 .gitignore
- rewrite tests/test.R (100%)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
-Counting objects: 26, done.
-Delta compression using up to 8 threads.
-Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
-Writing objects:   3% (1/26)   Writing objects:   7% (2/26)   Writing objects:  11% (3/26)   Writing objects:  15% (4/26)   Writing objects:  19% (5/26)   Writing objects:  23% (6/26)   Writing objects:  26% (7/26)   Writing objects:  30% (8/26)   Writing objects:  34% (9/26)   Writing objects:  38% (10/26)   Writing objects:  42% (11/26)   Writing objects:  46% (12/26)   Writing objects:  50% (13/26)   Writing objects:  53% (14/26)   Writing objects:  57% (15/26)   Writing objects:  61% (16/26)   Writing objects:  65% (17/26)   Writing objects:  69% (18/26)   Writing objects:  73% (19/26)   Writing objects:  76% (20/26)   Writing objects:  80% (21/26)   Writing objects:  84% (22/26)   Writing objects:  88% (23/26)   Writing objects:  92% (24/26)   Writing objects:  96% (25/26)   Writing objects: 100% (26/26)   Writing objects: 100% (26/26), 6.57 KiB | 1.09 MiB/s, done.
-Total 26 (delta 15), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15)   [Kremote: Resolving deltas:  13% (2/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  33% (5/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  46% (7/15)   [Kremote: Resolving deltas:  53% (8/15)   [Kremote: Resolving deltas:  60% (9/15)   [Kremote: Resolving deltas:  66% (10/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 15 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   d155bce..0379dc7  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ add -a .[K[K[K[K[K[K[K[Kgit add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""t"r"a"v"i"s"
-[master b405968] travis
- 14 files changed, 110 insertions(+), 14 deletions(-)
- create mode 100644 .travis.yml
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
-Counting objects: 21, done.
-Delta compression using up to 8 threads.
-Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
-Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  76% (16/21)   Writing objects:  80% (17/21)   Writing objects:  85% (18/21)   Writing objects:  90% (19/21)   Writing objects:  95% (20/21)   Writing objects: 100% (21/21)   Writing objects: 100% (21/21), 3.10 KiB | 1.55 MiB/s, done.
-Total 21 (delta 13), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 12 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   0379dc7..b405968  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ad[K[Kgit add .a
-fatal: pathspec '.a' did not match any files
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git[K[K[Kgit add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git cmmo[K[K[Kommit-m[K[K 0m [K[K[K-m ""c"o"m"m"e"n"t" "t"e"s"t"
-[master 1fbed08] comment test
- 9 files changed, 192 insertions(+), 179 deletions(-)
- rewrite .Rproj.user/37231BE/sources/s-AB85508D/1D504534-contents (100%)
- rewrite tests/test.R (100%)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git pus[K[K[K[K[K[K[Kgit push -o master[K[K[K[K[K[Korgin master
-fatal: 'master' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -o orgin master[1@icommit -m "comment test"add .[Kapush -u origin master
-Counting objects: 17, done.
-Delta compression using up to 8 threads.
-Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
-Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  70% (12/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 2.50 KiB | 285.00 KiB/s, done.
-Total 17 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 7 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   b405968..1fbed08  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ggit[K[K[K[Kgit add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push o[K[K[K[K[K[Kcommit -m ""c"o"[1P"[1P"c"o"r"r"e"c"t" "i"n"[1P"[1P"p"l"o"t" "i"n"[1P"[1P"r"e"g"[1P"[1P"[1P"n"c"v"i"n"t"
-[master 0f54fb1] correct plot ncvint
- 20 files changed, 101 insertions(+), 34 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mste[K[K[Kaster
-Counting objects: 27, done.
-Delta compression using up to 8 threads.
-Compressing objects:   3% (1/26)   Compressing objects:   7% (2/26)   Compressing objects:  11% (3/26)   Compressing objects:  15% (4/26)   Compressing objects:  19% (5/26)   Compressing objects:  23% (6/26)   Compressing objects:  26% (7/26)   Compressing objects:  30% (8/26)   Compressing objects:  34% (9/26)   Compressing objects:  38% (10/26)   Compressing objects:  42% (11/26)   Compressing objects:  46% (12/26)   Compressing objects:  50% (13/26)   Compressing objects:  53% (14/26)   Compressing objects:  57% (15/26)   Compressing objects:  61% (16/26)   Compressing objects:  65% (17/26)   Compressing objects:  69% (18/26)   Compressing objects:  73% (19/26)   Compressing objects:  76% (20/26)   Compressing objects:  80% (21/26)   Compressing objects:  84% (22/26)   Compressing objects:  88% (23/26)   Compressing objects:  92% (24/26)   Compressing objects:  96% (25/26)   Compressing objects: 100% (26/26)   Compressing objects: 100% (26/26), done.
-Writing objects:   3% (1/27)   Writing objects:   7% (2/27)   Writing objects:  11% (3/27)   Writing objects:  14% (4/27)   Writing objects:  18% (5/27)   Writing objects:  22% (6/27)   Writing objects:  25% (7/27)   Writing objects:  29% (8/27)   Writing objects:  33% (9/27)   Writing objects:  37% (10/27)   Writing objects:  40% (11/27)   Writing objects:  44% (12/27)   Writing objects:  48% (13/27)   Writing objects:  51% (14/27)   Writing objects:  55% (15/27)   Writing objects:  59% (16/27)   Writing objects:  62% (17/27)   Writing objects:  66% (18/27)   Writing objects:  70% (19/27)   Writing objects:  74% (20/27)   Writing objects:  77% (21/27)   Writing objects:  81% (22/27)   Writing objects:  85% (23/27)   Writing objects:  88% (24/27)   Writing objects:  92% (25/27)   Writing objects:  96% (26/27)   Writing objects: 100% (27/27)   Writing objects: 100% (27/27), 3.58 KiB | 1.19 MiB/s, done.
-Total 27 (delta 16), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/16)   [Kremote: Resolving deltas:   6% (1/16)   [Kremote: Resolving deltas:  12% (2/16)   [Kremote: Resolving deltas:  18% (3/16)   [Kremote: Resolving deltas:  25% (4/16)   [Kremote: Resolving deltas:  31% (5/16)   [Kremote: Resolving deltas:  37% (6/16)   [Kremote: Resolving deltas:  43% (7/16)   [Kremote: Resolving deltas:  50% (8/16)   [Kremote: Resolving deltas:  56% (9/16)   [Kremote: Resolving deltas:  62% (10/16)   [Kremote: Resolving deltas:  68% (11/16)   [Kremote: Resolving deltas:  75% (12/16)   [Kremote: Resolving deltas:  81% (13/16)   [Kremote: Resolving deltas:  87% (14/16)   [Kremote: Resolving deltas:  93% (15/16)   [Kremote: Resolving deltas: 100% (16/16)   [Kremote: Resolving deltas: 100% (16/16), completed with 16 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   1fbed08..0f54fb1  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ R CMD build
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ R CMD build
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ R CMD build ..
-* checking for file ‘../DESCRIPTION’ ... NO
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls
-DESCRIPTION       [1m[34mR[39;49m[0m/                cran-comments.md  [1m[34msrc[39;49m[0m/
-NAMESPACE         TVsMiss.Rproj     [1m[34mman[39;49m[0m/              [1m[34mtests[39;49m[0m/
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ lsR CMD build ..[K[K.
-* checking for file ‘./DESCRIPTION’ ... OK
-* preparing ‘TVsMiss’:
-* checking DESCRIPTION meta-information ... OK
-* cleaning src
-* checking for LF line-endings in source and make files and shell scripts
-* checking for empty or unneeded directories
-* building ‘TVsMiss_0.1.0.tar.gz’
-
-git add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""r"e"a"d"[1P"[1P"[1P"[1P"R"E"A"D"M"E"."m"d"
-[master f4418df] README.md
- 22 files changed, 159 insertions(+), 40 deletions(-)
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB
- create mode 100644 README-example-1.png
- create mode 100644 README.Rmd
- create mode 100644 README.md
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push 0u[K[K-u origin master
-Counting objects: 30, done.
-Delta compression using up to 8 threads.
-Compressing objects:   3% (1/29)   Compressing objects:   6% (2/29)   Compressing objects:  10% (3/29)   Compressing objects:  13% (4/29)   Compressing objects:  17% (5/29)   Compressing objects:  20% (6/29)   Compressing objects:  24% (7/29)   Compressing objects:  27% (8/29)   Compressing objects:  31% (9/29)   Compressing objects:  34% (10/29)   Compressing objects:  37% (11/29)   Compressing objects:  41% (12/29)   Compressing objects:  44% (13/29)   Compressing objects:  48% (14/29)   Compressing objects:  51% (15/29)   Compressing objects:  55% (16/29)   Compressing objects:  58% (17/29)   Compressing objects:  62% (18/29)   Compressing objects:  65% (19/29)   Compressing objects:  68% (20/29)   Compressing objects:  72% (21/29)   Compressing objects:  75% (22/29)   Compressing objects:  79% (23/29)   Compressing objects:  82% (24/29)   Compressing objects:  86% (25/29)   Compressing objects:  89% (26/29)   Compressing objects:  93% (27/29)   Compressing objects:  96% (28/29)   Compressing objects: 100% (29/29)   Compressing objects: 100% (29/29), done.
-Writing objects:   3% (1/30)   Writing objects:   6% (2/30)   Writing objects:  10% (3/30)   Writing objects:  13% (4/30)   Writing objects:  16% (5/30)   Writing objects:  20% (6/30)   Writing objects:  23% (7/30)   Writing objects:  26% (8/30)   Writing objects:  30% (9/30)   Writing objects:  33% (10/30)   Writing objects:  36% (11/30)   Writing objects:  40% (12/30)   Writing objects:  43% (13/30)   Writing objects:  46% (14/30)   Writing objects:  50% (15/30)   Writing objects:  53% (16/30)   Writing objects:  56% (17/30)   Writing objects:  60% (18/30)   Writing objects:  63% (19/30)   Writing objects:  66% (20/30)   Writing objects:  70% (21/30)   Writing objects:  73% (22/30)   Writing objects:  76% (23/30)   Writing objects:  80% (24/30)   Writing objects:  83% (25/30)   Writing objects:  86% (26/30)   Writing objects:  90% (27/30)   Writing objects:  93% (28/30)   Writing objects:  96% (29/30)   Writing objects: 100% (30/30)   Writing objects: 100% (30/30), 39.42 KiB | 791.00 KiB/s, done.
-Total 30 (delta 16), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/16)   [Kremote: Resolving deltas:   6% (1/16)   [Kremote: Resolving deltas:  12% (2/16)   [Kremote: Resolving deltas:  18% (3/16)   [Kremote: Resolving deltas:  25% (4/16)   [Kremote: Resolving deltas:  31% (5/16)   [Kremote: Resolving deltas:  37% (6/16)   [Kremote: Resolving deltas:  43% (7/16)   [Kremote: Resolving deltas:  50% (8/16)   [Kremote: Resolving deltas:  56% (9/16)   [Kremote: Resolving deltas:  62% (10/16)   [Kremote: Resolving deltas:  68% (11/16)   [Kremote: Resolving deltas:  75% (12/16)   [Kremote: Resolving deltas:  81% (13/16)   [Kremote: Resolving deltas:  87% (14/16)   [Kremote: Resolving deltas:  93% (15/16)   [Kremote: Resolving deltas: 100% (16/16)   [Kremote: Resolving deltas: 100% (16/16), completed with 15 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   0f54fb1..f4418df  master -> master
-Branch master set up to track remote branch master from origin.
-R CMD build .ls[KR CMD build ..[K ..ls[KR CMD build .[Kgit .[Kadd .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""b"f"[1P"e"f"o"r"e" "r"e"l"e"a"s"e"
-[master 5dbfb99] before release
- 12 files changed, 39 insertions(+), 14 deletions(-)
- rewrite .Rproj.user/37231BE/persistent-state (85%)
- create mode 100644 NEWS.md
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
-Counting objects: 22, done.
-Delta compression using up to 8 threads.
-Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
-Writing objects:   4% (1/22)   Writing objects:   9% (2/22)   Writing objects:  13% (3/22)   Writing objects:  18% (4/22)   Writing objects:  22% (5/22)   Writing objects:  27% (6/22)   Writing objects:  31% (7/22)   Writing objects:  36% (8/22)   Writing objects:  40% (9/22)   Writing objects:  45% (10/22)   Writing objects:  50% (11/22)   Writing objects:  54% (12/22)   Writing objects:  59% (13/22)   Writing objects:  63% (14/22)   Writing objects:  68% (15/22)   Writing objects:  72% (16/22)   Writing objects:  77% (17/22)   Writing objects:  81% (18/22)   Writing objects:  86% (19/22)   Writing objects:  90% (20/22)   Writing objects:  95% (21/22)   Writing objects: 100% (22/22)   Writing objects: 100% (22/22), 3.94 KiB | 115.00 KiB/s, done.
-Total 22 (delta 12), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   f4418df..5dbfb99  master -> master
-Branch master set up to track remote branch master from origin.
-[K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git -aa[Kdd[K[Kdd .
-Unknown option: -add
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ igt [K[K[K[Kgit add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -M[Km ""c"o"m"m"i"t" "f"o"r" "r"e"l"a"s"e"[1P"[1P"[1P"e"a"s"e"
-[master 3c26812] commit for release
- 86 files changed, 41 insertions(+), 4885 deletions(-)
- rewrite .Rproj.user/37231BE/console06/INDEX001 (86%)
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1208406-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1350BD46-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/16D5887A-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/175564BA-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1847AF62-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1AF162E0-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/20CDA5C8-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2112684F-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/27F95C0B-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/28B4FCFD-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2AF897DB-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/33CD8F38-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/3F5D4F62-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41AE14A3-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41B8F8BB-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/43CF75E8-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/464A1BD0-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/473D9FB5-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4C8E6033-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4CC5139A-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4D278DFD-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5C24B8C0-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5EA9D1CA-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/664107D2-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/6816789E-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72DF8A5E-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72E34D83-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7353E2FE-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/75E2BD5C-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/79DFECD1-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7A2FA920-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/80C91F03-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/8C8BF9E-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/99CA600C-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9AD7878D-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9EBEFA83-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9F3D157-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A3C42317-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A6B32001-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A75A600E-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD34982B-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AF09C757-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B00C71FE-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B28EDFA7-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B29EB5EC-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B8F0164A-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BAF4AE2E-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BD6FAE10-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BE159227-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C1395B57-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C681DEA-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C69716B1-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C70ADA09-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/CA0BB060-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/D630B5BA-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DDAFF9D9-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DF65EDB0-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E3DFBCE9-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E43EDDBC-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E4BEB26F-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EB6E729D-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EF24AFFC-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F0336B9A-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F609B5F9-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FC97175C-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FE635643-contents
- delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/lock_file
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
-Counting objects: 20, done.
-Delta compression using up to 8 threads.
-Compressing objects:   5% (1/19)   Compressing objects:  10% (2/19)   Compressing objects:  15% (3/19)   Compressing objects:  21% (4/19)   Compressing objects:  26% (5/19)   Compressing objects:  31% (6/19)   Compressing objects:  36% (7/19)   Compressing objects:  42% (8/19)   Compressing objects:  47% (9/19)   Compressing objects:  52% (10/19)   Compressing objects:  57% (11/19)   Compressing objects:  63% (12/19)   Compressing objects:  68% (13/19)   Compressing objects:  73% (14/19)   Compressing objects:  78% (15/19)   Compressing objects:  84% (16/19)   Compressing objects:  89% (17/19)   Compressing objects:  94% (18/19)   Compressing objects: 100% (19/19)   Compressing objects: 100% (19/19), done.
-Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 2.18 KiB | 223.00 KiB/s, done.
-Total 20 (delta 12), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   5dbfb99..3c26812  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""c"o"r"r"e"c"t" "t"y"p"o" "f"o"r" "r"e"l"a"s"e"[1P"[1P"[1P"e"a"s"e"
-[master e057121] correct typo for release
- 8 files changed, 117 insertions(+), 22 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u master origin
-error: src refspec origin does not match any.
-error: failed to push some refs to 'master'
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u master origin[K[K[K[K[K[K[K[K[K[K[K[K[Korigin master
-Counting objects: 17, done.
-Delta compression using up to 8 threads.
-Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
-Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  70% (12/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 2.51 KiB | 59.00 KiB/s, done.
-Total 17 (delta 10), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 10 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   3c26812..e057121  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastermaster origincommit -m "correct typo for release"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastermaster origincommit -m "correct typo for release"
-[master 18d9049] correct typo for release
- 5 files changed, 28 insertions(+), 11 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo for release"add .[Kpush -u origin master
-Counting objects: 13, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.62 KiB | 1.62 MiB/s, done.
-Total 13 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   e057121..18d9049  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo for release"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo for release"
-[master c188a78] correct typo for release
- 5 files changed, 111 insertions(+), 97 deletions(-)
- rewrite tests/test.R (100%)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo for release"add .[Kpush -u origin master
-Counting objects: 14, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 2.00 KiB | 53.00 KiB/s, done.
-Total 14 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 6 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   18d9049..c188a78  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo for release"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo for release"
-[master d213700] correct typo for release
- 5 files changed, 21 insertions(+), 3 deletions(-)
- rewrite README-example-1.png (96%)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo for release"add .[Kpush -u origin master
-Counting objects: 12, done.
-Delta compression using up to 8 threads.
-Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
-Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 40.64 KiB | 13.54 MiB/s, done.
-Total 12 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   c188a78..d213700  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo for release"[15Ppush -u origin mastercommit -m "correct typo for release"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo for release"
-[master 6bb61d1] correct typo for release
- 2 files changed, 17 insertions(+), 2 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo for release"add .[Kpush -u origin master
-Counting objects: 9, done.
-Delta compression using up to 8 threads.
-Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
-Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.16 KiB | 1.16 MiB/s, done.
-Total 9 (delta 4), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   d213700..6bb61d1  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo for release"add .[Kpush -u origin masteradd .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo for release"
-[master 42585b0] correct typo for release
- 4 files changed, 19 insertions(+), 5 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo for release"add .[Kpush -u origin master
-Counting objects: 13, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.41 KiB | 1.41 MiB/s, done.
-Total 13 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   6bb61d1..42585b0  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo for release"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo for release"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"i"n"[1P"n"c"l"u"d"e" "N"E"W"S"."M"D"[1P"[1P"m"d"
-[master ca31145] include NEWS.md
- 5 files changed, 19 insertions(+), 5 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "include NEWS.md"add .[Kpush -u origin master
-Counting objects: 12, done.
-Delta compression using up to 8 threads.
-Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
-Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 1.13 KiB | 1.13 MiB/s, done.
-Total 12 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   42585b0..ca31145  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "include NEWS.md"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "include NEWS.md"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"c"o"r"r"e"c"t" "t"y"p"o"
-[master 55d7114] correct typo
- 4 files changed, 18 insertions(+), 4 deletions(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo"add .[Kpush -u origin master
-Counting objects: 13, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/13)   Compressing objects:  15% (2/13)   Compressing objects:  23% (3/13)   Compressing objects:  30% (4/13)   Compressing objects:  38% (5/13)   Compressing objects:  46% (6/13)   Compressing objects:  53% (7/13)   Compressing objects:  61% (8/13)   Compressing objects:  69% (9/13)   Compressing objects:  76% (10/13)   Compressing objects:  84% (11/13)   Compressing objects:  92% (12/13)   Compressing objects: 100% (13/13)   Compressing objects: 100% (13/13), done.
-Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 1.28 KiB | 1.28 MiB/s, done.
-Total 13 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   ca31145..55d7114  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo"
-[master 59ae5ec] correct typo
- 5 files changed, 27 insertions(+), 11 deletions(-)
- rewrite README-example-1.png (96%)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo"add .[Kpush -u origin master
-Counting objects: 12, done.
-Delta compression using up to 8 threads.
-Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
-Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 43.08 KiB | 21.54 MiB/s, done.
-Total 12 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   55d7114..59ae5ec  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls
-DESCRIPTION           [1m[34mR[39;49m[0m/                    README.md             [1m[34mman[39;49m[0m/
-NAMESPACE             README-example-1.png  TVsMiss.Rproj         [1m[34msrc[39;49m[0m/
-NEWS.md               README.Rmd            cran-comments.md      [1m[34mtests[39;49m[0m/
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls -alt
-total 216
-drwxr-xr-x@ 13 yangyang  staff   416B Mar  6 05:08 [1m[34m.git[39;49m[0m/
--rw-r--r--@  1 yangyang  staff   1.0K Mar  6 05:08 README.Rmd
-drwxr-xr-x@ 21 yangyang  staff   672B Mar  6 05:04 [1m[34m.[39;49m[0m/
--rw-r--r--@  1 yangyang  staff   1.0K Mar  6 05:04 README.md
--rw-r--r--@  1 yangyang  staff    45K Mar  6 05:04 README-example-1.png
--rw-r--r--@  1 yangyang  staff    81B Mar  6 05:03 .gitignore
--rw-r--r--@  1 yangyang  staff    95B Mar  6 04:55 .Rbuildignore
--rw-r--r--@  1 yangyang  staff   700B Mar  6 04:48 DESCRIPTION
--rw-r--r--@  1 yangyang  staff   355B Mar  6 04:24 TVsMiss.Rproj
-drwxr-xr-x@  5 yangyang  staff   160B Mar  6 04:18 [1m[34m..[39;49m[0m/
--rw-r--r--@  1 yangyang  staff    32B Mar  6 04:16 NEWS.md
-drwxr-xr-x@ 12 yangyang  staff   384B Mar  6 04:11 [1m[34msrc[39;49m[0m/
--rw-r--r--@  1 yangyang  staff   382B Mar  6 01:40 cran-comments.md
--rw-r--r--@  1 yangyang  staff   6.0K Mar  6 01:17 .DS_Store
--rw-r--r--@  1 yangyang  staff   122B Mar  6 00:31 .travis.yml
-drwxr-xr-x@  5 yangyang  staff   160B Mar  5 21:02 [1m[34mman[39;49m[0m/
--rw-r--r--@  1 yangyang  staff   603B Mar  5 19:38 NAMESPACE
-drwxr-xr-x@ 21 yangyang  staff   672B Mar  5 18:59 [1m[34mR[39;49m[0m/
-drwxr-xr-x@  3 yangyang  staff    96B Mar  5 06:12 [1m[34mtests[39;49m[0m/
--rw-r--r--@  1 yangyang  staff   8.5K Feb 26 18:26 .Rhistory
-drwxr-xr-x@  4 yangyang  staff   128B Feb  4 15:23 [1m[34m.Rproj.user[39;49m[0m/
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls -alt[Kgit push -u origin mastercommit -m "correct typo"add .[K
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .[2Pls -alt[Kgit push -u origin mastercommit -m "correct typo"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"c"l"e"a"n" "u"p"
-[master 039b3a0] clean up
- 5 files changed, 49 insertions(+), 1 deletion(-)
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git stta[Ka[K[Katus
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/37231BE/console06/6901CFDD[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git statuscommit -m "clean up"add .[K[2Pls -alt[Kgit push -u origin master
-Counting objects: 14, done.
-Delta compression using up to 8 threads.
-Compressing objects:   7% (1/14)   Compressing objects:  14% (2/14)   Compressing objects:  21% (3/14)   Compressing objects:  28% (4/14)   Compressing objects:  35% (5/14)   Compressing objects:  42% (6/14)   Compressing objects:  50% (7/14)   Compressing objects:  57% (8/14)   Compressing objects:  64% (9/14)   Compressing objects:  71% (10/14)   Compressing objects:  78% (11/14)   Compressing objects:  85% (12/14)   Compressing objects:  92% (13/14)   Compressing objects: 100% (14/14)   Compressing objects: 100% (14/14), done.
-Writing objects:   7% (1/14)   Writing objects:  14% (2/14)   Writing objects:  21% (3/14)   Writing objects:  28% (4/14)   Writing objects:  35% (5/14)   Writing objects:  42% (6/14)   Writing objects:  50% (7/14)   Writing objects:  57% (8/14)   Writing objects:  64% (9/14)   Writing objects:  71% (10/14)   Writing objects:  78% (11/14)   Writing objects:  85% (12/14)   Writing objects:  92% (13/14)   Writing objects: 100% (14/14)   Writing objects: 100% (14/14), 1.85 KiB | 45.00 KiB/s, done.
-Total 14 (delta 7), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
-To https://github.com/yang0117/TVsMiss.git
-   59ae5ec..039b3a0  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git remove[K[K[K[K[Km .Rhistory [K
-rm '.Rhistory'
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git rm .DS_Store [K
-rm '.DS_Store'
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git rm --cached file1.txt[K[K[K[K[K[K[K[K[K.Rbuildignore [K
-rm '.Rbuildignore'
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git rm --cached .Rbuildignore[K[K[K[K[K[K[K[K[K[K[K[K[KTVsMiss.Rproj [K
-rm 'TVsMiss.Rproj'
-]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git rm --cached TVsMiss.Rproj.Rbuildignore[13P.DS_StoreRhistorypush -u origin masterstatus[Kcommit -m "clean up"add .[K
