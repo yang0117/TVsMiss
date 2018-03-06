@@ -7,14 +7,14 @@
     "folds" : "",
     "hash" : "0",
     "id" : "9374438C",
-    "lastKnownWriteTime" : 1520296530,
-    "last_content_update" : 1520296530,
+    "lastKnownWriteTime" : 1520305104,
+    "last_content_update" : 1520305104259,
     "path" : "~/Dropbox/04.Projects/package/TVsMiss/R/TVsMiss.R",
     "project_path" : "R/TVsMiss.R",
     "properties" : {
-        "cursorPosition" : "22,17",
-        "marks" : "<:22,16\n>:22,17",
-        "scrollLine" : "1"
+        "cursorPosition" : "35,20",
+        "marks" : "<:0,0\n>:0,0",
+        "scrollLine" : "25"
     },
     "relative_order" : 3,
     "source_on_save" : false,

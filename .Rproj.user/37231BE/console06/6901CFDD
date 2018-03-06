@@ -15,3 +15,249 @@ NAMESPACE         TVsMiss.Rproj     [1m[34mman[39;49m[0m/              [1m
 Initialized empty Git repository in /Users/yangyang/Dropbox/04.Projects/package/TVsMiss/.git/
 ]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
 ]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""F"[1P"C"o"d"e"f"[1P" "f"i"n"i"s"h"e"d"
+[master (root-commit) d155bce] Code finished
+ 228 files changed, 8002 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/37231BE/.DS_Store
+ create mode 100644 .Rproj.user/37231BE/build_options
+ create mode 100644 .Rproj.user/37231BE/console06/6901CFDD
+ create mode 100644 .Rproj.user/37231BE/console06/6901CFDD.env
+ create mode 100644 .Rproj.user/37231BE/console06/INDEX001
+ create mode 100644 .Rproj.user/37231BE/cpp-complilation-config
+ create mode 100644 .Rproj.user/37231BE/cpp-definition-cache
+ create mode 100644 .Rproj.user/37231BE/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/37231BE/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/37231BE/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/37231BE/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/37231BE/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/37231BE/persistent-state
+ create mode 100644 .Rproj.user/37231BE/rmd-outputs
+ create mode 100644 .Rproj.user/37231BE/saved_source_markers
+ create mode 100644 .Rproj.user/37231BE/sources/.DS_Store
+ create mode 100644 .Rproj.user/37231BE/sources/prop/13D6A5FE
+ create mode 100644 .Rproj.user/37231BE/sources/prop/22F94DD6
+ create mode 100644 .Rproj.user/37231BE/sources/prop/2503415B
+ create mode 100644 .Rproj.user/37231BE/sources/prop/28772A7
+ create mode 100644 .Rproj.user/37231BE/sources/prop/295CE971
+ create mode 100644 .Rproj.user/37231BE/sources/prop/2BEC268C
+ create mode 100644 .Rproj.user/37231BE/sources/prop/2E0676C3
+ create mode 100644 .Rproj.user/37231BE/sources/prop/31ABF772
+ create mode 100644 .Rproj.user/37231BE/sources/prop/3247FBFD
+ create mode 100644 .Rproj.user/37231BE/sources/prop/32E512CB
+ create mode 100644 .Rproj.user/37231BE/sources/prop/36438C65
+ create mode 100644 .Rproj.user/37231BE/sources/prop/37F9BF81
+ create mode 100644 .Rproj.user/37231BE/sources/prop/388F7CA
+ create mode 100644 .Rproj.user/37231BE/sources/prop/3ACCDB1D
+ create mode 100644 .Rproj.user/37231BE/sources/prop/3B8C97F2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/3BE3E784
+ create mode 100644 .Rproj.user/37231BE/sources/prop/3E06404D
+ create mode 100644 .Rproj.user/37231BE/sources/prop/4027FA83
+ create mode 100644 .Rproj.user/37231BE/sources/prop/42783908
+ create mode 100644 .Rproj.user/37231BE/sources/prop/435D2F13
+ create mode 100644 .Rproj.user/37231BE/sources/prop/44FC48E7
+ create mode 100644 .Rproj.user/37231BE/sources/prop/45DA4724
+ create mode 100644 .Rproj.user/37231BE/sources/prop/4BDAE678
+ create mode 100644 .Rproj.user/37231BE/sources/prop/4D6DA1F7
+ create mode 100644 .Rproj.user/37231BE/sources/prop/4E7153ED
+ create mode 100644 .Rproj.user/37231BE/sources/prop/56BCEF47
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5771DAAD
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5BE68E91
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5C4A7BDD
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5CD68C60
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5DDF173A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/5FB43971
+ create mode 100644 .Rproj.user/37231BE/sources/prop/64BA44A1
+ create mode 100644 .Rproj.user/37231BE/sources/prop/670505A2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/6AE0866F
+ create mode 100644 .Rproj.user/37231BE/sources/prop/6FDF94BE
+ create mode 100644 .Rproj.user/37231BE/sources/prop/707BF3BF
+ create mode 100644 .Rproj.user/37231BE/sources/prop/708AB86
+ create mode 100644 .Rproj.user/37231BE/sources/prop/730F117C
+ create mode 100644 .Rproj.user/37231BE/sources/prop/74C35442
+ create mode 100644 .Rproj.user/37231BE/sources/prop/74D444A7
+ create mode 100644 .Rproj.user/37231BE/sources/prop/75A04596
+ create mode 100644 .Rproj.user/37231BE/sources/prop/76CC0416
+ create mode 100644 .Rproj.user/37231BE/sources/prop/7967BE3F
+ create mode 100644 .Rproj.user/37231BE/sources/prop/7D26FA24
+ create mode 100644 .Rproj.user/37231BE/sources/prop/84716957
+ create mode 100644 .Rproj.user/37231BE/sources/prop/8479360A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/88A7E67C
+ create mode 100644 .Rproj.user/37231BE/sources/prop/89B31F4E
+ create mode 100644 .Rproj.user/37231BE/sources/prop/8C924AA2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/9078EABB
+ create mode 100644 .Rproj.user/37231BE/sources/prop/90DBF537
+ create mode 100644 .Rproj.user/37231BE/sources/prop/9135F7D4
+ create mode 100644 .Rproj.user/37231BE/sources/prop/9918715E
+ create mode 100644 .Rproj.user/37231BE/sources/prop/9DDBBABD
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A1774FFE
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A324D046
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A7321915
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A7337316
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A737F3B2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/A7E3E30A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/AC7D9EA
+ create mode 100644 .Rproj.user/37231BE/sources/prop/AD2820EF
+ create mode 100644 .Rproj.user/37231BE/sources/prop/AF010596
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B0CBADA
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B16E9919
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B1DB133C
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B381754E
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B3D7691C
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B6B5E70D
+ create mode 100644 .Rproj.user/37231BE/sources/prop/B919F9BC
+ create mode 100644 .Rproj.user/37231BE/sources/prop/BE8859A2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/C18B7BBB
+ create mode 100644 .Rproj.user/37231BE/sources/prop/C1EB3066
+ create mode 100644 .Rproj.user/37231BE/sources/prop/C24D8775
+ create mode 100644 .Rproj.user/37231BE/sources/prop/C6DD377A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/CB71DBA6
+ create mode 100644 .Rproj.user/37231BE/sources/prop/CDCFBE7A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/CE003E52
+ create mode 100644 .Rproj.user/37231BE/sources/prop/CFF6336A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/D20F3CBC
+ create mode 100644 .Rproj.user/37231BE/sources/prop/D240E6C1
+ create mode 100644 .Rproj.user/37231BE/sources/prop/D55FFC2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/DB9690D7
+ create mode 100644 .Rproj.user/37231BE/sources/prop/DF80B4D2
+ create mode 100644 .Rproj.user/37231BE/sources/prop/E10D84E1
+ create mode 100644 .Rproj.user/37231BE/sources/prop/E1476903
+ create mode 100644 .Rproj.user/37231BE/sources/prop/E348E628
+ create mode 100644 .Rproj.user/37231BE/sources/prop/E794B788
+ create mode 100644 .Rproj.user/37231BE/sources/prop/EEC07C13
+ create mode 100644 .Rproj.user/37231BE/sources/prop/EEF941F9
+ create mode 100644 .Rproj.user/37231BE/sources/prop/EFDEDB5B
+ create mode 100644 .Rproj.user/37231BE/sources/prop/F3C7577A
+ create mode 100644 .Rproj.user/37231BE/sources/prop/F5007713
+ create mode 100644 .Rproj.user/37231BE/sources/prop/F50199CE
+ create mode 100644 .Rproj.user/37231BE/sources/prop/FF6DB4EA
+ create mode 100644 .Rproj.user/37231BE/sources/prop/INDEX
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1208406-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1350BD46-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/16D5887A-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/175564BA-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1847AF62-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1AF162E0-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/1D504534-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/20CDA5C8-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2112684F-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/27F95C0B-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/28B4FCFD-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/2AF897DB-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/33CD8F38-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/3F5D4F62-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41AE14A3-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/41B8F8BB-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/43CF75E8-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/464A1BD0-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/473D9FB5-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4C8E6033-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4CC5139A-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/4D278DFD-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5C24B8C0-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/5EA9D1CA-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/664107D2-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/6816789E-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72DF8A5E-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/72E34D83-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7353E2FE-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/75E2BD5C-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/79DFECD1-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/7A2FA920-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/80C91F03-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/8C8BF9E-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9374438C-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/99CA600C-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9AD7878D-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9EBEFA83-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/9F3D157-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A3C42317-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A6B32001-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/A75A600E-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD34982B-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AD3764A-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AF09C757-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B00C71FE-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B28EDFA7-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B29EB5EC-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/B8F0164A-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BAF4AE2E-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BD6FAE10-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/BE159227-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C1395B57-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C681DEA-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C69716B1-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/C70ADA09-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/CA0BB060-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/D630B5BA-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DDAFF9D9-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/DF65EDB0-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E3DFBCE9-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E43EDDBC-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/E4BEB26F-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EB6E729D-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/EF24AFFC-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F0336B9A-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/F609B5F9-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FA2E4EB8-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FC97175C-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/FE635643-contents
+ create mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/lock_file
+ create mode 100644 .Rproj.user/shared/.DS_Store
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/TVsMiss.R
+ create mode 100644 R/cv_logistic_prepare.R
+ create mode 100644 R/function_archive.R
+ create mode 100644 R/loglikelihood.R
+ create mode 100644 R/model_est_path.R
+ create mode 100644 R/ncv_function.R
+ create mode 100644 R/ncvint.R
+ create mode 100644 R/pairdata.R
+ create mode 100644 R/plot.TVsMiss.R
+ create mode 100644 R/selection_BIC.R
+ create mode 100644 R/selection_BIChigh.R
+ create mode 100644 R/selection_BICultrahigh.R
+ create mode 100644 R/selection_CV.R
+ create mode 100644 R/selection_fleiss.R
+ create mode 100644 R/selection_sBIC.R
+ create mode 100644 R/selection_sBIChigh.R
+ create mode 100644 R/selection_sBICultrahigh.R
+ create mode 100644 R/selection_sEST.R
+ create mode 100644 R/selection_sVS.R
+ create mode 100644 TVsMiss.Rproj
+ create mode 100644 cran-comments.md
+ create mode 100644 man/pairdata.Rd
+ create mode 100644 man/plot.TVsMiss.Rd
+ create mode 100644 man/tvsmiss.Rd
+ create mode 100644 src/.DS_Store
+ create mode 100644 src/binomial.c
+ create mode 100644 src/loglikelihood.c
+ create mode 100644 src/maxprod.c
+ create mode 100644 src/ncvint.c
+ create mode 100644 tests/test.R
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git remov[Kte add origin https://github.com/yang0117/T VsMiss.git
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ g[Kgit rmo[K[Kemote -v
+origin	https://github.com/yang0117/TVsMiss.git (fetch)
+origin	https://github.com/yang0117/TVsMiss.git (push)
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
+Counting objects: 161, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/154)   Compressing objects:   1% (2/154)   Compressing objects:   2% (4/154)   Compressing objects:   3% (5/154)   Compressing objects:   4% (7/154)   Compressing objects:   5% (8/154)   Compressing objects:   6% (10/154)   Compressing objects:   7% (11/154)   Compressing objects:   8% (13/154)   Compressing objects:   9% (14/154)   Compressing objects:  10% (16/154)   Compressing objects:  11% (17/154)   Compressing objects:  12% (19/154)   Compressing objects:  13% (21/154)   Compressing objects:  14% (22/154)   Compressing objects:  15% (24/154)   Compressing objects:  16% (25/154)   Compressing objects:  17% (27/154)   Compressing objects:  18% (28/154)   Compressing objects:  19% (30/154)   Compressing objects:  20% (31/154)   Compressing objects:  21% (33/154)   Compressing objects:  22% (34/154)   Compressing objects:  23% (36/154)   Compressing objects:  24% (37/154)   Compressing objects:  25% (39/154)   Compressing objects:  26% (41/154)   Compressing objects:  27% (42/154)   Compressing objects:  28% (44/154)   Compressing objects:  29% (45/154)   Compressing objects:  30% (47/154)   Compressing objects:  31% (48/154)   Compressing objects:  32% (50/154)   Compressing objects:  33% (51/154)   Compressing objects:  34% (53/154)   Compressing objects:  35% (54/154)   Compressing objects:  36% (56/154)   Compressing objects:  37% (57/154)   Compressing objects:  38% (59/154)   Compressing objects:  39% (61/154)   Compressing objects:  40% (62/154)   Compressing objects:  41% (64/154)   Compressing objects:  42% (65/154)   Compressing objects:  43% (67/154)   Compressing objects:  44% (68/154)   Compressing objects:  45% (70/154)   Compressing objects:  46% (71/154)   Compressing objects:  47% (73/154)   Compressing objects:  48% (74/154)   Compressing objects:  49% (76/154)   Compressing objects:  50% (77/154)   Compressing objects:  51% (79/154)   Compressing objects:  52% (81/154)   Compressing objects:  53% (82/154)   Compressing objects:  54% (84/154)   Compressing objects:  55% (85/154)   Compressing objects:  56% (87/154)   Compressing objects:  57% (88/154)   Compressing objects:  58% (90/154)   Compressing objects:  59% (91/154)   Compressing objects:  60% (93/154)   Compressing objects:  61% (94/154)   Compressing objects:  62% (96/154)   Compressing objects:  63% (98/154)   Compressing objects:  64% (99/154)   Compressing objects:  65% (101/154)   Compressing objects:  66% (102/154)   Compressing objects:  67% (104/154)   Compressing objects:  68% (105/154)   Compressing objects:  69% (107/154)   Compressing objects:  70% (108/154)   Compressing objects:  71% (110/154)   Compressing objects:  72% (111/154)   Compressing objects:  73% (113/154)   Compressing objects:  74% (114/154)   Compressing objects:  75% (116/154)   Compressing objects:  76% (118/154)   Compressing objects:  77% (119/154)   Compressing objects:  78% (121/154)   Compressing objects:  79% (122/154)   Compressing objects:  80% (124/154)   Compressing objects:  81% (125/154)   Compressing objects:  82% (127/154)   Compressing objects:  83% (128/154)   Compressing objects:  84% (130/154)   Compressing objects:  85% (131/154)   Compressing objects:  86% (133/154)   Compressing objects:  87% (134/154)   Compressing objects:  88% (136/154)   Compressing objects:  89% (138/154)   Compressing objects:  90% (139/154)   Compressing objects:  91% (141/154)   Compressing objects:  92% (142/154)   Compressing objects:  93% (144/154)   Compressing objects:  94% (145/154)   Compressing objects:  95% (147/154)   Compressing objects:  96% (148/154)   Compressing objects:  97% (150/154)   Compressing objects:  98% (151/154)   Compressing objects:  99% (153/154)   Compressing objects: 100% (154/154)   Compressing objects: 100% (154/154), done.
+Writing objects:   0% (1/161)   Writing objects:   1% (2/161)   Writing objects:   3% (5/161)   Writing objects:   4% (7/161)   Writing objects:   5% (9/161)   Writing objects:   6% (10/161)   Writing objects:   7% (12/161)   Writing objects:   8% (13/161)   Writing objects:   9% (15/161)   Writing objects:  10% (17/161)   Writing objects:  11% (18/161)   Writing objects:  12% (20/161)   Writing objects:  13% (21/161)   Writing objects:  14% (23/161)   Writing objects:  15% (25/161)   Writing objects:  16% (26/161)   Writing objects:  17% (28/161)   Writing objects:  18% (29/161)   Writing objects:  19% (31/161)   Writing objects:  20% (33/161)   Writing objects:  21% (34/161)   Writing objects:  22% (36/161)   Writing objects:  23% (38/161)   Writing objects:  24% (39/161)   Writing objects:  25% (41/161)   Writing objects:  26% (42/161)   Writing objects:  27% (44/161)   Writing objects:  28% (46/161)   Writing objects:  29% (47/161)   Writing objects:  30% (49/161)   Writing objects:  31% (50/161)   Writing objects:  32% (52/161)   Writing objects:  33% (54/161)   Writing objects:  34% (55/161)   Writing objects:  35% (57/161)   Writing objects:  36% (58/161)   Writing objects:  37% (60/161)   Writing objects:  38% (62/161)   Writing objects:  39% (63/161)   Writing objects:  40% (65/161)   Writing objects:  41% (67/161)   Writing objects:  42% (68/161)   Writing objects:  43% (70/161)   Writing objects:  44% (71/161)   Writing objects:  45% (73/161)   Writing objects:  46% (75/161)   Writing objects:  47% (76/161)   Writing objects:  48% (78/161)   Writing objects:  49% (79/161)   Writing objects:  50% (81/161)   Writing objects:  52% (84/161)   Writing objects:  53% (86/161)   Writing objects:  54% (87/161)   Writing objects:  55% (89/161)   Writing objects:  56% (91/161)   Writing objects:  57% (92/161)   Writing objects:  59% (95/161)   Writing objects:  60% (97/161)   Writing objects:  61% (99/161)   Writing objects:  62% (100/161)   Writing objects:  63% (102/161)   Writing objects:  64% (104/161)   Writing objects:  65% (105/161)   Writing objects:  66% (107/161)   Writing objects:  67% (108/161)   Writing objects:  68% (110/161)   Writing objects:  70% (113/161)   Writing objects:  71% (115/161)   Writing objects:  72% (116/161)   Writing objects:  73% (118/161)   Writing objects:  74% (120/161)   Writing objects:  75% (121/161)   Writing objects:  76% (123/161)   Writing objects:  77% (124/161)   Writing objects:  78% (126/161)   Writing objects:  79% (128/161)   Writing objects:  80% (129/161)   Writing objects:  81% (131/161)   Writing objects:  82% (133/161)   Writing objects:  83% (134/161)   Writing objects:  84% (136/161)   Writing objects:  85% (137/161)   Writing objects:  86% (139/161)   Writing objects:  87% (141/161)   Writing objects:  88% (142/161)   Writing objects:  89% (144/161)   Writing objects:  90% (145/161)   Writing objects:  91% (147/161)   Writing objects:  92% (149/161)   Writing objects:  93% (150/161)   Writing objects:  94% (152/161)   Writing objects:  95% (153/161)   Writing objects:  96% (155/161)   Writing objects:  97% (157/161)   Writing objects:  98% (158/161)   Writing objects:  99% (160/161)   Writing objects: 100% (161/161)   Writing objects: 100% (161/161), 64.01 KiB | 390.00 KiB/s, done.
+Total 161 (delta 17), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:  23% (4/17)   [Kremote: Resolving deltas:  29% (5/17)   [Kremote: Resolving deltas:  47% (8/17)   [Kremote: Resolving deltas:  52% (9/17)   [Kremote: Resolving deltas:  70% (12/17)   [Kremote: Resolving deltas:  76% (13/17)   [Kremote: Resolving deltas:  88% (15/17)   [Kremote: Resolving deltas:  94% (16/17)   [Kremote: Resolving deltas: 100% (17/17)   [Kremote: Resolving deltas: 100% (17/17), done.[K
+To https://github.com/yang0117/TVsMiss.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+git add .
