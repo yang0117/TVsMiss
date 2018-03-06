@@ -365,3 +365,26 @@ To https://github.com/yang0117/TVsMiss.git
    0f54fb1..f4418df  master -> master
 Branch master set up to track remote branch master from origin.
 R CMD build .ls[KR CMD build ..[K ..ls[KR CMD build .[Kgit .[Kadd .
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""b"f"[1P"e"f"o"r"e" "r"e"l"e"a"s"e"
+[master 5dbfb99] before release
+ 12 files changed, 39 insertions(+), 14 deletions(-)
+ rewrite .Rproj.user/37231BE/persistent-state (85%)
+ create mode 100644 NEWS.md
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin master
+Counting objects: 22, done.
+Delta compression using up to 8 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   4% (1/22)   Writing objects:   9% (2/22)   Writing objects:  13% (3/22)   Writing objects:  18% (4/22)   Writing objects:  22% (5/22)   Writing objects:  27% (6/22)   Writing objects:  31% (7/22)   Writing objects:  36% (8/22)   Writing objects:  40% (9/22)   Writing objects:  45% (10/22)   Writing objects:  50% (11/22)   Writing objects:  54% (12/22)   Writing objects:  59% (13/22)   Writing objects:  63% (14/22)   Writing objects:  68% (15/22)   Writing objects:  72% (16/22)   Writing objects:  77% (17/22)   Writing objects:  81% (18/22)   Writing objects:  86% (19/22)   Writing objects:  90% (20/22)   Writing objects:  95% (21/22)   Writing objects: 100% (22/22)   Writing objects: 100% (22/22), 3.94 KiB | 115.00 KiB/s, done.
+Total 22 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[K
+To https://github.com/yang0117/TVsMiss.git
+   f4418df..5dbfb99  master -> master
+Branch master set up to track remote branch master from origin.
+[K[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git -aa[Kdd[K[Kdd .
+Unknown option: -add
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ igt [K[K[K[Kgit add .
