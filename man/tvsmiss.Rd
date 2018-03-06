@@ -41,7 +41,7 @@ paired data}
 }
 \description{
 Fit a model based on a pseudo likelihood and select variable(s) through one of multiple techniques. The regularization path is computed for lasso, SCAD, or MCP.
-Three steps are used to finish this the variable selectio purpose: 1. remove missing and pair each observations;
+Three steps are used to finish this the variable selection purpose: 1. remove missing and pair each observations;
 2. use penalty to get lambda path and corresponding beta matrix; 3. use specific method to finish variable selection.
 }
 \examples{
