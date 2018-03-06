@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# TVsMiss
+
+The goal of TVsMiss is to select variable in both low and high demesion through regularization likelihood method.
+
+## Installation
+
+You can install TVsMiss from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("yang0117/TVsMiss")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+rm(list = ls())
+library(TVsMiss)
+n <- 50
+p <- 8
+beta <- c(3,0,1.5,0,2,rep(0,p-5))
+xm <- matrix(rnorm(n*p),ncol = p, nrow = n)
+y <- xm %*% beta + rnorm(n)
+colnames(xm) <- paste0("Var_",1:p)
+fit02 <- tvsmiss(x=xm,y=y,method = "BIC")
+fit02$selection_beta
+plot(fit02,x.log=TRUE,label = TRUE)
+```
