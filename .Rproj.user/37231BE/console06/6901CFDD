@@ -347,3 +347,21 @@ NAMESPACE         TVsMiss.Rproj     [1m[34mman[39;49m[0m/              [1m
 * building ‘TVsMiss_0.1.0.tar.gz’
 
 git add .
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m ""r"e"a"d"[1P"[1P"[1P"[1P"R"E"A"D"M"E"."m"d"
+[master f4418df] README.md
+ 22 files changed, 159 insertions(+), 40 deletions(-)
+ delete mode 100644 .Rproj.user/37231BE/sources/s-AB85508D/AEA80BEB
+ create mode 100644 README-example-1.png
+ create mode 100644 README.Rmd
+ create mode 100644 README.md
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push 0u[K[K-u origin master
+Counting objects: 30, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/29)   Compressing objects:   6% (2/29)   Compressing objects:  10% (3/29)   Compressing objects:  13% (4/29)   Compressing objects:  17% (5/29)   Compressing objects:  20% (6/29)   Compressing objects:  24% (7/29)   Compressing objects:  27% (8/29)   Compressing objects:  31% (9/29)   Compressing objects:  34% (10/29)   Compressing objects:  37% (11/29)   Compressing objects:  41% (12/29)   Compressing objects:  44% (13/29)   Compressing objects:  48% (14/29)   Compressing objects:  51% (15/29)   Compressing objects:  55% (16/29)   Compressing objects:  58% (17/29)   Compressing objects:  62% (18/29)   Compressing objects:  65% (19/29)   Compressing objects:  68% (20/29)   Compressing objects:  72% (21/29)   Compressing objects:  75% (22/29)   Compressing objects:  79% (23/29)   Compressing objects:  82% (24/29)   Compressing objects:  86% (25/29)   Compressing objects:  89% (26/29)   Compressing objects:  93% (27/29)   Compressing objects:  96% (28/29)   Compressing objects: 100% (29/29)   Compressing objects: 100% (29/29), done.
+Writing objects:   3% (1/30)   Writing objects:   6% (2/30)   Writing objects:  10% (3/30)   Writing objects:  13% (4/30)   Writing objects:  16% (5/30)   Writing objects:  20% (6/30)   Writing objects:  23% (7/30)   Writing objects:  26% (8/30)   Writing objects:  30% (9/30)   Writing objects:  33% (10/30)   Writing objects:  36% (11/30)   Writing objects:  40% (12/30)   Writing objects:  43% (13/30)   Writing objects:  46% (14/30)   Writing objects:  50% (15/30)   Writing objects:  53% (16/30)   Writing objects:  56% (17/30)   Writing objects:  60% (18/30)   Writing objects:  63% (19/30)   Writing objects:  66% (20/30)   Writing objects:  70% (21/30)   Writing objects:  73% (22/30)   Writing objects:  76% (23/30)   Writing objects:  80% (24/30)   Writing objects:  83% (25/30)   Writing objects:  86% (26/30)   Writing objects:  90% (27/30)   Writing objects:  93% (28/30)   Writing objects:  96% (29/30)   Writing objects: 100% (30/30)   Writing objects: 100% (30/30), 39.42 KiB | 791.00 KiB/s, done.
+Total 30 (delta 16), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/16)   [Kremote: Resolving deltas:   6% (1/16)   [Kremote: Resolving deltas:  12% (2/16)   [Kremote: Resolving deltas:  18% (3/16)   [Kremote: Resolving deltas:  25% (4/16)   [Kremote: Resolving deltas:  31% (5/16)   [Kremote: Resolving deltas:  37% (6/16)   [Kremote: Resolving deltas:  43% (7/16)   [Kremote: Resolving deltas:  50% (8/16)   [Kremote: Resolving deltas:  56% (9/16)   [Kremote: Resolving deltas:  62% (10/16)   [Kremote: Resolving deltas:  68% (11/16)   [Kremote: Resolving deltas:  75% (12/16)   [Kremote: Resolving deltas:  81% (13/16)   [Kremote: Resolving deltas:  87% (14/16)   [Kremote: Resolving deltas:  93% (15/16)   [Kremote: Resolving deltas: 100% (16/16)   [Kremote: Resolving deltas: 100% (16/16), completed with 15 local objects.[K
+To https://github.com/yang0117/TVsMiss.git
+   0f54fb1..f4418df  master -> master
+Branch master set up to track remote branch master from origin.
+R CMD build .ls[KR CMD build ..[K ..ls[KR CMD build .[Kgit .[Kadd .
