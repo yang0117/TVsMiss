@@ -1,8 +1,8 @@
-#' Generate paired dataset from orginal dataset
+#' Generate paired dataset from original dataset
 #'
-#' Generate the paired data used for logisitic regression
+#' Generate the paired data used for logistics regression
 #'
-#' @param data1 the orginal unpaired data
+#' @param data1 the original unpaired data
 #'
 #' @examples
 #' n <- 50

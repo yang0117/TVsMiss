@@ -1,13 +1,13 @@
 #' fit and select variable(s) for data with missing value
 #'
 #' Fit a model based on a pseudo likelihood and select variable(s) through one of multiple techniques. The regularization path is computed for lasso, SCAD, or MCP.
-#' Three steps are used to finsih this the variable selectio purpose: 1. remove missing and pair each observations;
+#' Three steps are used to finish this the variable selectio purpose: 1. remove missing and pair each observations;
 #' 2. use penalty to get lambda path and corresponding beta matrix; 3. use specific method to finish variable selection.
 #' @param x the covariate matrix, should be in matrix format and at least two columns, each row is an observation
 #' @param y the response variable
 #' @param penalty the penalty used for regularization, can be lasso, SCAD, or MCP. The default is lasso.
 #' @param method the variable selection method, can be cross-validation (CV), Bayesian information criterion (BIC),
-#' BIC1 and BIC2 are adapted for the consistency in the high demision, sBIC is the information stability,
+#' BIC1 and BIC2 are adapted for the consistency in the high dimension, sBIC is the information stability,
 #' sBIC1 and sBIC2 are information stability for high dimension data, sVS is the variable selection stability,
 #' sEST is the estimation stability
 #' @param lambda lambda path used in the regularization path. If not specified by user, the path will be generated automatically
@@ -18,7 +18,7 @@
 #' @param refit If TRUE, refit technique will be used to get estimation, i.e., use selection variable to refit
 #' the model to get estimation
 #' @param use.penalty If TRUE, use penalty and variable selection techniques; if FALSE, just fit a logistic regression model with
-#' pairwised data
+#' paired data
 #' @param gamma the tuning parameter of the SCAD/MCP. Default is 3.7 for SCAD and 3 for MCP
 #'
 #' @examples
