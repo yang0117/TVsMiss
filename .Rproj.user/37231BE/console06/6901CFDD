@@ -596,3 +596,45 @@ To https://github.com/yang0117/TVsMiss.git
    ca31145..55d7114  master -> master
 Branch master set up to track remote branch master from origin.
 ]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git push -u origin mastercommit -m "correct typo"add .[K
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git add .push -u origin mastercommit -m "correct typo"
+[master 59ae5ec] correct typo
+ 5 files changed, 27 insertions(+), 11 deletions(-)
+ rewrite README-example-1.png (96%)
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ git commit -m "correct typo"add .[Kpush -u origin master
+Counting objects: 12, done.
+Delta compression using up to 8 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 43.08 KiB | 21.54 MiB/s, done.
+Total 12 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/yang0117/TVsMiss.git
+   55d7114..59ae5ec  master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls
+DESCRIPTION           [1m[34mR[39;49m[0m/                    README.md             [1m[34mman[39;49m[0m/
+NAMESPACE             README-example-1.png  TVsMiss.Rproj         [1m[34msrc[39;49m[0m/
+NEWS.md               README.Rmd            cran-comments.md      [1m[34mtests[39;49m[0m/
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls -alt
+total 216
+drwxr-xr-x@ 13 yangyang  staff   416B Mar  6 05:08 [1m[34m.git[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff   1.0K Mar  6 05:08 README.Rmd
+drwxr-xr-x@ 21 yangyang  staff   672B Mar  6 05:04 [1m[34m.[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff   1.0K Mar  6 05:04 README.md
+-rw-r--r--@  1 yangyang  staff    45K Mar  6 05:04 README-example-1.png
+-rw-r--r--@  1 yangyang  staff    81B Mar  6 05:03 .gitignore
+-rw-r--r--@  1 yangyang  staff    95B Mar  6 04:55 .Rbuildignore
+-rw-r--r--@  1 yangyang  staff   700B Mar  6 04:48 DESCRIPTION
+-rw-r--r--@  1 yangyang  staff   355B Mar  6 04:24 TVsMiss.Rproj
+drwxr-xr-x@  5 yangyang  staff   160B Mar  6 04:18 [1m[34m..[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff    32B Mar  6 04:16 NEWS.md
+drwxr-xr-x@ 12 yangyang  staff   384B Mar  6 04:11 [1m[34msrc[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff   382B Mar  6 01:40 cran-comments.md
+-rw-r--r--@  1 yangyang  staff   6.0K Mar  6 01:17 .DS_Store
+-rw-r--r--@  1 yangyang  staff   122B Mar  6 00:31 .travis.yml
+drwxr-xr-x@  5 yangyang  staff   160B Mar  5 21:02 [1m[34mman[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff   603B Mar  5 19:38 NAMESPACE
+drwxr-xr-x@ 21 yangyang  staff   672B Mar  5 18:59 [1m[34mR[39;49m[0m/
+drwxr-xr-x@  3 yangyang  staff    96B Mar  5 06:12 [1m[34mtests[39;49m[0m/
+-rw-r--r--@  1 yangyang  staff   8.5K Feb 26 18:26 .Rhistory
+drwxr-xr-x@  4 yangyang  staff   128B Feb  4 15:23 [1m[34m.Rproj.user[39;49m[0m/
+]0;~/Dropbox/04.Projects/package/TVsMiss[36myangyang[m@[32mYangs-MacBook-Pro:[33;1m~/Dropbox/04.Projects/package/TVsMiss[m$ ls -alt[Kgit push -u origin mastercommit -m "correct typo"add .[K

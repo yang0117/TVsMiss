@@ -6,3 +6,6 @@ src/*.o
 src/*.so
 src/*.dll
 TVsMiss.Rproj
+.DS_Store
+.Rhistory
+.Rbuildignore
