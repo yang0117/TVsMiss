@@ -2,15 +2,15 @@
 % Please edit documentation in R/pairdata.R
 \name{pairdata}
 \alias{pairdata}
-\title{Generate paired dataset from orginal dataset}
+\title{Generate paired dataset from original dataset}
 \usage{
 pairdata(data1)
 }
 \arguments{
-\item{data1}{the orginal unpaired data}
+\item{data1}{the original unpaired data}
 }
 \description{
-Generate the paired data used for logisitic regression
+Generate the paired data used for logistics regression
 }
 \examples{
 n <- 50
