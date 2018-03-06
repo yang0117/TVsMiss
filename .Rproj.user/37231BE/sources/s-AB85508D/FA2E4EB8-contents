@@ -38,14 +38,16 @@
 plot.TVsMiss <- function(x,x.log=FALSE, label=F,...){
   if(any(class(x$model) == "glmnet")){
     model.adapt <- x$model
-    class(model.adapt) <- "ncvreg"
+    class(model.adapt) <- "ncvint"
     beta.temp <- as.matrix(model.adapt$beta)
     beta.temp <- rbind(rep(0,ncol(beta.temp)),beta.temp)
     model.adapt$beta <- beta.temp
     model.adapt$penalty.factor <- rep(1,nrow(beta.temp)-1)
     plot_for_ncvreg(model.adapt, log.l=x.log, label = label,...)
   }else if(any(class(x$model) == "ncvreg")){
-    plot_for_ncvreg(x$model,log.l = x.log, label = label,...)
+    model.adapt <- x$model
+    class(model.adapt) <- "ncvint"
+    plot_for_ncvreg(model.adapt,log.l = x.log, label = label,...)
   }else stop("Input obeject is wrong")
 }
 
