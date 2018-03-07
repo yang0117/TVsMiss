@@ -46,19 +46,16 @@
 #' @useDynLib TVsMiss, .registration=TRUE
 #'
 #' @export
-
-
-# three steps:
-# 1. remove missing and pair each observations
-# 2. use penalty to get lambda path and corresponding beta matrix
-# 3. use specific method to finish variable selection
-#
-# If cv.null is not NULL, then fold will be ignored
-
 tvsmiss <- function(x,y,penalty=c("lasso", "MCP", "SCAD"),
                     method=c("CV", "BIC", "BIC1", "BIC2", "sBIC", "sBIC1", "sBIC2","sVS", "sEST"),
                     lambda=NULL,fold=5,cv.ind=NULL,repeat_b=20,alpha_n=0.1,refit=F,
                     gamma=switch(penalty, SCAD=3.7, MCP=3,lasso=NA),use.penalty=T){
+  # three steps:
+  # 1. remove missing and pair each observations
+  # 2. use penalty to get lambda path and corresponding beta matrix
+  # 3. use specific method to finish variable selection
+  #
+  # If cv.null is not NULL, then fold will be ignored
   penalty <- match.arg(penalty)
   method <- match.arg(method)
   this.call = match.call()

@@ -4,14 +4,14 @@
 \alias{plot.TVsMiss}
 \title{plot solution path from the fitted "TVsMiss" object}
 \usage{
-\method{plot}{TVsMiss}(x, x.log = FALSE, label = F, ...)
+\method{plot}{TVsMiss}(x, label = FALSE, log = TRUE, ...)
 }
 \arguments{
 \item{x}{fitted "TVsMiss" object}
 
-\item{x.log}{If TRUE, x-axis is log scale; if FALSE, x-axis is in normal scale}
-
 \item{label}{If TRUE, the name of each predictor variable will be showed}
+
+\item{log}{If TRUE, x-axis is log scale; if FALSE, x-axis is in normal scale}
 
 \item{...}{graphical parameters to plot}
 }

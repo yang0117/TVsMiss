@@ -4,7 +4,7 @@
 #' of each predictors can be chosen to show or not
 #'
 #' @param x fitted "TVsMiss" object
-#' @param x.log If TRUE, x-axis is log scale; if FALSE, x-axis is in normal scale
+#' @param log If TRUE, x-axis is log scale; if FALSE, x-axis is in normal scale
 #' @param label If TRUE, the name of each predictor variable will be showed
 #' @param ... graphical parameters to plot
 #'
@@ -34,8 +34,7 @@
 #' @importFrom graphics abline axis mtext par polygon text
 #'
 #' @export
-
-plot.TVsMiss <- function(x,x.log=FALSE, label=F,...){
+plot.TVsMiss <- function(x, label=FALSE, log=TRUE, ...){
   if(any(class(x$model) == "glmnet")){
     model.adapt <- x$model
     class(model.adapt) <- "ncvint"
@@ -43,11 +42,11 @@ plot.TVsMiss <- function(x,x.log=FALSE, label=F,...){
     beta.temp <- rbind(rep(0,ncol(beta.temp)),beta.temp)
     model.adapt$beta <- beta.temp
     model.adapt$penalty.factor <- rep(1,nrow(beta.temp)-1)
-    plot_for_ncvreg(model.adapt, log.l=x.log, label = label,...)
+    plot_for_ncvreg(model.adapt, log.l=log, label = label,...)
   }else if(any(class(x$model) == "ncvreg")){
     model.adapt <- x$model
     class(model.adapt) <- "ncvint"
-    plot_for_ncvreg(model.adapt,log.l = x.log, label = label,...)
+    plot_for_ncvreg(model.adapt,log.l = log, label = label,...)
   }else stop("Input obeject is wrong")
 }
 

@@ -15,11 +15,11 @@
 #' nrow(pair01) == choose(n,2)
 #'
 #' @export
-
-#logistics data generator: get the logistics dataset from original dataset
-#input:original dataset
-#output:logistics dataset
 pairdata <- function(data1){
+  #logistics data generator: get the logistics dataset from original dataset
+  #input:original dataset
+  #output:logistics dataset
+
   #covert to logistic regression data
   #define a function to calculate each row of new logistic dataset
   data1 <- as.matrix(data1)
