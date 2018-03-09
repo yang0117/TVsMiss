@@ -6,7 +6,7 @@ Date: 2018-03-01
 Author: Jiwei Zhao, Yang Yang, and Ning Yang
 Maintainer: Yang Yang <yyang39@buffalo.edu>
 Description: Use a regularization likelihood method to achieve variable selection purpose, can be used with penalty lasso, smoothly clipped absolute deviations (SCAD) and minimax concave penalty (MCP). 
-    Tuning parameter selection techniques include cross validation (CV), Bayesian information criterion (BIC) (low and high), stability of variabel selection (sVS), stability of BIC (sBIC), and stability of estimation (sEST).
+    Tuning parameter selection techniques include cross validation (CV), Bayesian information criterion (BIC) (low and high), stability of variable selection (sVS), stability of BIC (sBIC), and stability of estimation (sEST).
     More details see Zhao, Jiwei, Yang Yang, and Yang Ning (2018) <arXiv:1703.06379> "Penalized pairwise pseudo likelihood for variable selection with nonignorable missing data." Statistica Sinica.
 License: GPL (>= 2)
 Imports: glmnet,
