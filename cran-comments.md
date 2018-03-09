@@ -13,3 +13,8 @@ R CMD check results (win-builder (devel and release))
 
 ## Downstream dependencies
 N/A
+
+## Update for feedback
+* explain all acronyms (e.g. SCAD) in your description to avoid misunderstandings
+* add a doi, arXiv or ISBN for your reference in your description
+
