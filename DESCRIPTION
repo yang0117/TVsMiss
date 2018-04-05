@@ -2,7 +2,7 @@ Package: TVsMiss
 Type: Package
 Title: Variable Selection for Missing Data
 Version: 0.1.1
-Date: 2018-03-01
+Date: 2018-04-05
 Author: Jiwei Zhao, Yang Yang, and Ning Yang
 Maintainer: Yang Yang <yyang39@buffalo.edu>
 Description: Use a regularization likelihood method to achieve variable selection purpose. Likelihood can be worked with penalty lasso, smoothly clipped absolute deviations (SCAD), and minimax concave penalty (MCP). 
