@@ -14,7 +14,6 @@ R CMD check results (win-builder (devel and release))
 N/A
 
 ## Update for 0.1.1
-* only update the file DESCRIPTION to have a clearer description and NEWS.md file to reflect this update
-* unchange to code
+* Change '&' to '&&' in C code
 
 
