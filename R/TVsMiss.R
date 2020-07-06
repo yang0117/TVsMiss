@@ -65,7 +65,7 @@ tvsmiss <- function(x,y,penalty=c("lasso", "MCP", "SCAD"),
     if (class(tmp)[1] == "try-error") stop("x must be a matrix or able to be coerced to a matrix")
   }
   if (storage.mode(x)=="integer") storage.mode(x) <- "double"
-  if (class(y) != "numeric") {
+  if (!("numeric" %in% class(y))) {
     tmp <- try(y <- as.numeric(y), silent=TRUE)
     if (class(tmp)[1] == "try-error") stop("y must numeric or able to be coerced to numeric")
   }
