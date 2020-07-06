@@ -60,7 +60,7 @@ tvsmiss <- function(x,y,penalty=c("lasso", "MCP", "SCAD"),
   method <- match.arg(method)
   this.call = match.call()
 
-  if (class(x) != "matrix") {
+  if ("matrix" %in% class(x)) {
     tmp <- try(x <- model.matrix(~0+., data=x), silent=TRUE)
     if (class(tmp)[1] == "try-error") stop("x must be a matrix or able to be coerced to a matrix")
   }
