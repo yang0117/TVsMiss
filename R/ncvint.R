@@ -5,15 +5,18 @@ ncvint <- function(X, y, family=c("gaussian","binomial","poisson"), penalty=c("M
   # Coersion
   family <- match.arg(family)
   penalty <- match.arg(penalty)
-  if (class(X) != "matrix") {
-    tmp <- try(X <- model.matrix(~0+., data=X), silent=TRUE)
-    if (class(tmp)[1] == "try-error") stop("X must be a matrix or able to be coerced to a matrix")
+  
+  
+  if ("matrix" %in% class(X)) {
+    tmp <- try(x <- model.matrix(~0+., data=model.frame(,data=as.data.frame(X))), silent=TRUE)
+    if (class(tmp)[1] == "try-error") stop("x must be a matrix or able to be coerced to a matrix")
   }
-  if (storage.mode(X)=="integer") storage.mode(X) <- "double"
-  if (class(y) != "numeric") {
+  if (storage.mode(X)=="integer") storage.mode(x) <- "double"
+  if (!("numeric" %in% class(y))) {
     tmp <- try(y <- as.numeric(y), silent=TRUE)
     if (class(tmp)[1] == "try-error") stop("y must numeric or able to be coerced to numeric")
   }
+  
   if (storage.mode(penalty.factor) != "double") storage.mode(penalty.factor) <- "double"
 
   # Error checking
