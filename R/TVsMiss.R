@@ -61,7 +61,7 @@ tvsmiss <- function(x,y,penalty=c("lasso", "MCP", "SCAD"),
   this.call = match.call()
 
   if ("matrix" %in% class(x)) {
-    tmp <- try(x <- model.matrix(~0+., data=model.frame(,data=as.data.frame(x)), silent=TRUE)
+    tmp <- try(x <- model.matrix(~0+., data=model.frame(,data=as.data.frame(x))), silent=TRUE)
     if (class(tmp)[1] == "try-error") stop("x must be a matrix or able to be coerced to a matrix")
   }
   if (storage.mode(x)=="integer") storage.mode(x) <- "double"
