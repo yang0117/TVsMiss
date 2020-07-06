@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 # TVsMiss
 
-The goal of TVsMiss is to select variable in both low and high demesion through regularization likelihood method.
+The goal of TVsMiss is to select variable in both low and high dimesion through regularization likelihood method.
 
 ## Installation
 
