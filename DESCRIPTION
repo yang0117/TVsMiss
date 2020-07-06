@@ -14,7 +14,7 @@ Imports: glmnet,
 NeedsCompilation: yes
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.1
 LinkingTo: Rcpp
 URL: https://github.com/yang0117/TVsMiss
 BugReports: https://github.com/yang0117/TVsMiss/issues

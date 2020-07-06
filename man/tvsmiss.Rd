@@ -4,10 +4,20 @@
 \alias{tvsmiss}
 \title{fit and select variable(s) for data with missing value}
 \usage{
-tvsmiss(x, y, penalty = c("lasso", "MCP", "SCAD"), method = c("CV", "BIC",
-  "BIC1", "BIC2", "sBIC", "sBIC1", "sBIC2", "sVS", "sEST"), lambda = NULL,
-  fold = 5, cv.ind = NULL, repeat_b = 20, alpha_n = 0.1, refit = F,
-  gamma = switch(penalty, SCAD = 3.7, MCP = 3, lasso = NA), use.penalty = T)
+tvsmiss(
+  x,
+  y,
+  penalty = c("lasso", "MCP", "SCAD"),
+  method = c("CV", "BIC", "BIC1", "BIC2", "sBIC", "sBIC1", "sBIC2", "sVS", "sEST"),
+  lambda = NULL,
+  fold = 5,
+  cv.ind = NULL,
+  repeat_b = 20,
+  alpha_n = 0.1,
+  refit = F,
+  gamma = switch(penalty, SCAD = 3.7, MCP = 3, lasso = NA),
+  use.penalty = T
+)
 }
 \arguments{
 \item{x}{the covariate matrix, should be in matrix format and at least two columns, each row is an observation}
