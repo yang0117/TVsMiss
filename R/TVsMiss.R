@@ -41,7 +41,7 @@
 #' fit06$beta_matrix
 #'
 #' @import glmnet
-#' @importFrom stats approx binomial coef complete.cases glm model.matrix predict residuals sd
+#' @importFrom stats approx binomial coef complete.cases glm model.matrix predict residuals sd model.frame
 #' @importFrom utils combn
 #' @useDynLib TVsMiss, .registration=TRUE
 #'
