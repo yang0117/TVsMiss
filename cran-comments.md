@@ -5,10 +5,10 @@
 
 ## R CMD check results
 R CMD check results (local OS X 10.15.5)
-0 errors | 0 warnings | 2 notes
+0 errors | 0 warnings | 0 notes
 
 R CMD check results (win-builder (devel and release))
-0 errors | 0 warnings | 2 notes
+0 errors | 0 warnings | 0 notes
 
 ## Downstream dependencies
 N/A
